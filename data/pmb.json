@@ -1,0 +1,38 @@
+{
+  "deskripsi": "Penerimaan Mahasiswa Baru (PMB) UPGRIS membuka kesempatan bagi calon mahasiswa untuk bergabung melalui berbagai jalur penerimaan. Informasi lengkap dapat diakses melalui website resmi PMB UPGRIS.",
+  "jalur": [
+    {
+      "nama": "Jalur Reguler",
+      "keterangan": "Pendaftaran melalui seleksi umum yang dibuka setiap tahun akademik."
+    },
+    {
+      "nama": "Jalur Prestasi",
+      "keterangan": "Jalur khusus bagi calon mahasiswa dengan prestasi akademik atau non-akademik."
+    },
+    {
+      "nama": "Jalur KIP Kuliah",
+      "keterangan": "Jalur bagi calon mahasiswa penerima Kartu Indonesia Pintar (KIP) Kuliah."
+    },
+    {
+      "nama": "Jalur RPL (Rekognisi Pembelajaran Lampau)",
+      "keterangan": "Jalur bagi yang telah memiliki pengalaman kerja atau pendidikan sebelumnya."
+    },
+    {
+      "nama": "Jalur Karyawan",
+      "keterangan": "Jalur khusus bagi karyawan yang ingin melanjutkan pendidikan."
+    },
+    {
+      "nama": "Pascasarjana",
+      "keterangan": "Pendaftaran untuk program magister (S2)."
+    }
+  ],
+  "persyaratan_umum": [
+    "Lulusan SMA/SMK/MA sederajat",
+    "Mengisi formulir pendaftaran online",
+    "Melampirkan dokumen yang diperlukan",
+    "Membayar biaya pendaftaran"
+  ],
+  "website": "https://pmb.upgris.ac.id",
+  "catatan": "Untuk jadwal dan persyaratan terbaru, calon mahasiswa disarankan membuka website PMB resmi.",
+  "source_url": "https://pmb.upgris.ac.id"
+}

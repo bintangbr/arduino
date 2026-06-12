@@ -1,0 +1,1112 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UPGRIS Academic Assistant — Landing Page</title>
+    <meta name="description" content="Chatbot Akademik Universitas PGRI Semarang berbasis Finite State Machine untuk layanan informasi akademik.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        /* ─── Reset & Base ─── */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        :root {
+            --primary: #4338ca;
+            --primary-light: #6366f1;
+            --primary-dark: #1e1b4b;
+            --accent: #7c3aed;
+            --success: #059669;
+            --error: #dc2626;
+            --bg: #f8fafc;
+            --surface: #ffffff;
+            --text: #0f172a;
+            --text-muted: #64748b;
+            --border: #e2e8f0;
+            --shadow-sm: 0 2px 8px rgba(0,0,0,0.04);
+            --shadow-md: 0 6px 24px rgba(0,0,0,0.08);
+            --shadow-lg: 0 12px 48px rgba(0,0,0,0.12);
+            --radius: 12px;
+            --radius-lg: 20px;
+        }
+
+        html { scroll-behavior: smooth; }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* ─── Navbar ─── */
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            height: 64px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .navbar-brand {
+            font-weight: 800;
+            font-size: 1.1rem;
+            color: var(--primary-dark);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .navbar-links {
+            display: flex;
+            gap: 1.5rem;
+            list-style: none;
+        }
+
+        .navbar-links a {
+            text-decoration: none;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+
+        .navbar-links a:hover { color: var(--primary); }
+
+        /* ─── Hero ─── */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 6rem 2rem 4rem;
+            position: relative;
+            overflow: hidden;
+            background: linear-gradient(160deg, #1e1b4b 0%, #312e81 25%, #4338ca 50%, #6366f1 75%, #818cf8 100%);
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -40%;
+            right: -20%;
+            width: 700px;
+            height: 700px;
+            background: radial-gradient(circle, rgba(255,255,255,0.06) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+
+        .hero::after {
+            content: '';
+            position: absolute;
+            bottom: -30%;
+            left: -10%;
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(circle, rgba(124, 58, 237, 0.15) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+
+        .hero-content {
+            text-align: center;
+            max-width: 800px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: rgba(255,255,255,0.12);
+            border: 1px solid rgba(255,255,255,0.2);
+            color: rgba(255,255,255,0.9);
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 0.78rem;
+            font-weight: 500;
+            margin-bottom: 1.5rem;
+            backdrop-filter: blur(10px);
+        }
+
+        .hero h1 {
+            color: white;
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            font-weight: 900;
+            line-height: 1.15;
+            margin-bottom: 1rem;
+        }
+
+        .hero h1 span {
+            background: linear-gradient(135deg, #c4b5fd, #a78bfa, #e0e7ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero-subtitle {
+            color: rgba(255,255,255,0.75);
+            font-size: clamp(0.95rem, 2vw, 1.15rem);
+            max-width: 600px;
+            margin: 0 auto 2rem;
+            font-weight: 400;
+        }
+
+        .hero-tags {
+            display: flex;
+            justify-content: center;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-bottom: 2.5rem;
+        }
+
+        .hero-tag {
+            background: rgba(255,255,255,0.1);
+            border: 1px solid rgba(255,255,255,0.15);
+            color: rgba(255,255,255,0.85);
+            padding: 5px 14px;
+            border-radius: 20px;
+            font-size: 0.72rem;
+            font-weight: 500;
+        }
+
+        .hero-actions {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 12px 28px;
+            border-radius: 10px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            text-decoration: none;
+            transition: all 0.25s;
+            cursor: pointer;
+            border: none;
+            font-family: inherit;
+        }
+
+        .btn-primary {
+            background: white;
+            color: var(--primary-dark);
+            box-shadow: var(--shadow-md);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .btn-secondary {
+            background: rgba(255,255,255,0.12);
+            color: white;
+            border: 1px solid rgba(255,255,255,0.25);
+        }
+
+        .btn-secondary:hover {
+            background: rgba(255,255,255,0.2);
+        }
+
+        /* ─── Features ─── */
+        .section {
+            padding: 5rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .section-title h2 {
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--primary-dark);
+            margin-bottom: 0.5rem;
+        }
+
+        .section-title p {
+            color: var(--text-muted);
+            font-size: 1rem;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .feature-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            padding: 2rem;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .feature-icon {
+            width: 48px;
+            height: 48px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+        }
+
+        .feature-card:nth-child(1) .feature-icon { background: #eef2ff; }
+        .feature-card:nth-child(2) .feature-icon { background: #faf5ff; }
+        .feature-card:nth-child(3) .feature-icon { background: #ecfdf5; }
+        .feature-card:nth-child(4) .feature-icon { background: #fff7ed; }
+        .feature-card:nth-child(5) .feature-icon { background: #fef2f2; }
+        .feature-card:nth-child(6) .feature-icon { background: #f0f9ff; }
+
+        .feature-card h3 {
+            font-size: 1.05rem;
+            font-weight: 700;
+            color: var(--primary-dark);
+            margin-bottom: 0.5rem;
+        }
+
+        .feature-card p {
+            color: var(--text-muted);
+            font-size: 0.87rem;
+            line-height: 1.6;
+        }
+
+        /* ─── API Docs ─── */
+        .api-section {
+            background: var(--primary-dark);
+            color: white;
+            padding: 5rem 2rem;
+        }
+
+        .api-section .section-title h2 { color: white; }
+        .api-section .section-title p { color: rgba(255,255,255,0.65); }
+
+        .api-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .api-card {
+            background: rgba(255,255,255,0.06);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius);
+            padding: 1.5rem;
+            transition: background 0.2s;
+        }
+
+        .api-card:hover {
+            background: rgba(255,255,255,0.1);
+        }
+
+        .api-method {
+            font-size: 0.7rem;
+            font-weight: 700;
+            padding: 3px 8px;
+            border-radius: 4px;
+            display: inline-block;
+            margin-bottom: 8px;
+        }
+
+        .api-method.post { background: #059669; color: white; }
+        .api-method.get { background: #2563eb; color: white; }
+
+        .api-endpoint {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.85rem;
+            color: #a78bfa;
+            margin-bottom: 6px;
+        }
+
+        .api-desc {
+            font-size: 0.8rem;
+            color: rgba(255,255,255,0.6);
+        }
+
+        /* ─── Chat Widget ─── */
+        .chat-widget-toggle {
+            position: fixed;
+            bottom: 24px;
+            right: 24px;
+            z-index: 1000;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            color: white;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            box-shadow: 0 6px 24px rgba(67, 56, 202, 0.4);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .chat-widget-toggle:hover {
+            transform: scale(1.08);
+            box-shadow: 0 8px 32px rgba(67, 56, 202, 0.5);
+        }
+
+        .chat-widget {
+            position: fixed;
+            bottom: 96px;
+            right: 24px;
+            z-index: 999;
+            width: 400px;
+            max-width: calc(100vw - 48px);
+            height: 560px;
+            max-height: calc(100vh - 120px);
+            background: var(--surface);
+            border-radius: var(--radius-lg);
+            box-shadow: 0 20px 60px rgba(0,0,0,0.2);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            transform: translateY(20px);
+            opacity: 0;
+            visibility: hidden;
+            transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1),
+                        opacity 0.35s cubic-bezier(0.4, 0, 0.2, 1),
+                        visibility 0.35s;
+        }
+
+        .chat-widget.open {
+            transform: translateY(0);
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .chat-header {
+            background: linear-gradient(135deg, var(--primary-dark), var(--primary));
+            color: white;
+            padding: 1rem 1.2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-shrink: 0;
+        }
+
+        .chat-header-info h3 {
+            font-size: 0.95rem;
+            font-weight: 700;
+        }
+
+        .chat-header-info p {
+            font-size: 0.72rem;
+            opacity: 0.7;
+        }
+
+        .chat-header-actions {
+            display: flex;
+            gap: 6px;
+        }
+
+        .chat-header-btn {
+            background: rgba(255,255,255,0.15);
+            border: none;
+            color: white;
+            width: 32px;
+            height: 32px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 0.8rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background 0.2s;
+        }
+
+        .chat-header-btn:hover { background: rgba(255,255,255,0.25); }
+
+        .chat-status {
+            padding: 8px 1.2rem;
+            background: #f1f5f9;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-shrink: 0;
+        }
+
+        .chat-status-item {
+            font-size: 0.68rem;
+            color: var(--text-muted);
+        }
+
+        .chat-status-item strong {
+            color: var(--primary);
+        }
+
+        .chat-messages {
+            flex: 1;
+            overflow-y: auto;
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .chat-messages::-webkit-scrollbar {
+            width: 4px;
+        }
+
+        .chat-messages::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 4px;
+        }
+
+        .chat-msg {
+            display: flex;
+            gap: 8px;
+            max-width: 85%;
+            animation: msgIn 0.3s ease;
+        }
+
+        @keyframes msgIn {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .chat-msg.bot { align-self: flex-start; }
+        .chat-msg.user { align-self: flex-end; flex-direction: row-reverse; }
+
+        .chat-msg-avatar {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.75rem;
+            flex-shrink: 0;
+        }
+
+        .chat-msg.bot .chat-msg-avatar {
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            color: white;
+        }
+
+        .chat-msg.user .chat-msg-avatar {
+            background: #e2e8f0;
+            color: var(--text);
+        }
+
+        .chat-msg-bubble {
+            padding: 10px 14px;
+            border-radius: 14px;
+            font-size: 0.82rem;
+            line-height: 1.55;
+            white-space: pre-wrap;
+            word-break: break-word;
+        }
+
+        .chat-msg.bot .chat-msg-bubble {
+            background: #f1f5f9;
+            color: var(--text);
+            border-bottom-left-radius: 4px;
+        }
+
+        .chat-msg.user .chat-msg-bubble {
+            background: linear-gradient(135deg, var(--primary), var(--primary-light));
+            color: white;
+            border-bottom-right-radius: 4px;
+        }
+
+        .chat-msg-meta {
+            font-size: 0.65rem;
+            color: var(--text-muted);
+            margin-top: 4px;
+            padding: 0 4px;
+        }
+
+        .chat-msg.bot .chat-msg-meta { text-align: left; }
+        .chat-msg.user .chat-msg-meta { text-align: right; }
+
+        .chat-suggestions {
+            padding: 8px 1rem;
+            border-top: 1px solid var(--border);
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+            background: #fafbfc;
+            flex-shrink: 0;
+            max-height: 80px;
+            overflow-y: auto;
+        }
+
+        .chat-suggestion-btn {
+            background: white;
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 4px 12px;
+            font-size: 0.7rem;
+            color: var(--primary);
+            cursor: pointer;
+            transition: all 0.2s;
+            font-family: inherit;
+            white-space: nowrap;
+        }
+
+        .chat-suggestion-btn:hover {
+            background: #eef2ff;
+            border-color: var(--primary-light);
+        }
+
+        .chat-input-area {
+            padding: 12px;
+            border-top: 1px solid var(--border);
+            display: flex;
+            gap: 8px;
+            background: white;
+            flex-shrink: 0;
+        }
+
+        .chat-input {
+            flex: 1;
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 10px 14px;
+            font-size: 0.85rem;
+            font-family: inherit;
+            outline: none;
+            transition: border-color 0.2s;
+            background: #f8fafc;
+        }
+
+        .chat-input:focus {
+            border-color: var(--primary-light);
+            background: white;
+        }
+
+        .chat-send-btn {
+            width: 42px;
+            height: 42px;
+            border-radius: 10px;
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 1.1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: transform 0.2s, opacity 0.2s;
+            flex-shrink: 0;
+        }
+
+        .chat-send-btn:hover { transform: scale(1.05); }
+        .chat-send-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+        .typing-indicator {
+            display: flex;
+            gap: 4px;
+            padding: 12px 16px;
+        }
+
+        .typing-dot {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: #94a3b8;
+            animation: typing 1.4s infinite;
+        }
+
+        .typing-dot:nth-child(2) { animation-delay: 0.2s; }
+        .typing-dot:nth-child(3) { animation-delay: 0.4s; }
+
+        @keyframes typing {
+            0%, 60%, 100% { transform: translateY(0); opacity: 0.4; }
+            30% { transform: translateY(-6px); opacity: 1; }
+        }
+
+        /* ─── FSM Badge ─── */
+        .fsm-badge {
+            display: inline-block;
+            font-size: 0.62rem;
+            font-weight: 600;
+            padding: 2px 8px;
+            border-radius: 4px;
+            margin-top: 4px;
+        }
+
+        .fsm-badge.accepted { background: #dcfce7; color: #166534; }
+        .fsm-badge.fallback { background: #fef2f2; color: #991b1b; }
+
+        /* ─── Footer ─── */
+        .footer {
+            text-align: center;
+            padding: 3rem 2rem;
+            border-top: 1px solid var(--border);
+            color: var(--text-muted);
+            font-size: 0.82rem;
+        }
+
+        .footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        /* ─── Responsive ─── */
+        @media (max-width: 768px) {
+            .navbar-links { display: none; }
+            .hero { padding: 5rem 1.5rem 3rem; }
+            .hero h1 { font-size: 2rem; }
+            .features-grid { grid-template-columns: 1fr; }
+            .api-grid { grid-template-columns: 1fr; }
+            .chat-widget { width: calc(100vw - 24px); right: 12px; bottom: 84px; }
+            .chat-widget-toggle { right: 16px; bottom: 16px; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- ── Navbar ── -->
+<nav class="navbar">
+    <a href="#" class="navbar-brand">🎓 UPGRIS Academic Assistant</a>
+    <ul class="navbar-links">
+        <li><a href="#features">Fitur</a></li>
+        <li><a href="#api-docs">API</a></li>
+        <li><a href="#" id="navChatBtn">Chatbot</a></li>
+    </ul>
+</nav>
+
+<!-- ── Hero ── -->
+<section class="hero" id="hero">
+    <div class="hero-content">
+        <div class="hero-badge">⚙️ Finite State Machine Based</div>
+        <h1>Chatbot Akademik<br><span>UPGRIS</span></h1>
+        <p class="hero-subtitle">
+            Asisten virtual berbasis Finite State Machine untuk layanan informasi akademik
+            Universitas PGRI Semarang. Dibuat untuk tugas Teori Bahasa dan Otomata.
+        </p>
+        <div class="hero-tags">
+            <span class="hero-tag">Python</span>
+            <span class="hero-tag">FastAPI</span>
+            <span class="hero-tag">FSM</span>
+            <span class="hero-tag">Rule-Based</span>
+            <span class="hero-tag">Teori Bahasa & Otomata</span>
+        </div>
+        <div class="hero-actions">
+            <button class="btn btn-primary" id="heroChatBtn">💬 Mulai Chat</button>
+            <a href="#api-docs" class="btn btn-secondary">📄 Lihat API</a>
+        </div>
+    </div>
+</section>
+
+<!-- ── Features ── -->
+<section class="section" id="features">
+    <div class="section-title">
+        <h2>Fitur Utama</h2>
+        <p>Informasi akademik UPGRIS dalam satu chatbot</p>
+    </div>
+    <div class="features-grid">
+        <div class="feature-card">
+            <div class="feature-icon">🏛️</div>
+            <h3>Profil UPGRIS & Informatika</h3>
+            <p>Informasi lengkap tentang universitas, visi misi, dan program studi Informatika.</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">👨‍🏫</div>
+            <h3>Informasi Dosen & Kurikulum</h3>
+            <p>Data dosen Informatika, mata kuliah, dan peminatan yang tersedia.</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">📋</div>
+            <h3>PMB & Beasiswa</h3>
+            <p>Jalur pendaftaran mahasiswa baru, biaya kuliah, dan informasi beasiswa.</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">📊</div>
+            <h3>KRS, KHS & IPK</h3>
+            <p>Informasi tentang pengisian KRS, kartu hasil studi, dan indeks prestasi.</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">📄</div>
+            <h3>Skripsi & Wisuda</h3>
+            <p>Tahapan skripsi, persyaratan wisuda, dan layanan surat akademik.</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">⚙️</div>
+            <h3>Simulasi FSM</h3>
+            <p>Setiap percakapan menampilkan detail transisi state FSM secara real-time.</p>
+        </div>
+    </div>
+</section>
+
+<!-- ── API Docs ── -->
+<section class="api-section" id="api-docs">
+    <div class="section-title">
+        <h2>REST API Endpoints</h2>
+        <p>Integrasikan chatbot ke website atau aplikasi Anda</p>
+    </div>
+    <div class="api-grid">
+        <div class="api-card">
+            <span class="api-method post">POST</span>
+            <div class="api-endpoint">/api/chat</div>
+            <div class="api-desc">Kirim pesan dan dapatkan respons chatbot beserta detail FSM.</div>
+        </div>
+        <div class="api-card">
+            <span class="api-method post">POST</span>
+            <div class="api-endpoint">/api/reset</div>
+            <div class="api-desc">Reset sesi chatbot ke kondisi awal.</div>
+        </div>
+        <div class="api-card">
+            <span class="api-method get">GET</span>
+            <div class="api-endpoint">/api/status/{session_id}</div>
+            <div class="api-desc">Cek status FSM (state, riwayat transisi).</div>
+        </div>
+        <div class="api-card">
+            <span class="api-method get">GET</span>
+            <div class="api-endpoint">/api/suggestions</div>
+            <div class="api-desc">Daftar contoh pertanyaan yang bisa diajukan.</div>
+        </div>
+        <div class="api-card">
+            <span class="api-method get">GET</span>
+            <div class="api-endpoint">/api/transition-table</div>
+            <div class="api-desc">Tabel transisi FSM lengkap.</div>
+        </div>
+        <div class="api-card">
+            <span class="api-method get">GET</span>
+            <div class="api-endpoint">/api/health</div>
+            <div class="api-desc">Health check dan jumlah sesi aktif.</div>
+        </div>
+    </div>
+</section>
+
+<!-- ── Footer ── -->
+<footer class="footer">
+    <p>
+        Chatbot Akademik UPGRIS — Tugas Teori Bahasa & Otomata<br>
+        Program Studi Informatika, Universitas PGRI Semarang<br>
+        Dibuat Oleh Kelompok Three Squad - Academic<br><br>
+        API: <a href="http://localhost:8000/docs" target="_blank">localhost:8000/docs</a> &middot;
+        Streamlit: <a href="http://localhost:8501" target="_blank">localhost:8501</a>
+    </p>
+</footer>
+
+<!-- ── Chat Widget ── -->
+<button class="chat-widget-toggle" id="chatToggle" title="Buka Chatbot">💬</button>
+
+<div class="chat-widget" id="chatWidget">
+    <div class="chat-header">
+        <div class="chat-header-info">
+            <h3>UPGRIS Academic Assistant</h3>
+            <p>Chatbot FSM — Online</p>
+        </div>
+        <div class="chat-header-actions">
+            <button class="chat-header-btn" id="chatReset" title="Reset Chat">↺</button>
+            <button class="chat-header-btn" id="chatClose" title="Tutup">✕</button>
+        </div>
+    </div>
+
+    <div class="chat-status" id="chatStatus">
+        <span class="chat-status-item">State: <strong id="statusState">IDLE</strong></span>
+        <span class="chat-status-item">Intent: <strong id="statusIntent">-</strong></span>
+        <span class="chat-status-item">Transisi: <strong id="statusTransitions">1</strong></span>
+    </div>
+
+    <div class="chat-messages" id="chatMessages">
+        <!-- Messages render here -->
+    </div>
+
+    <div class="chat-suggestions" id="chatSuggestions">
+        <!-- Suggestion buttons render here -->
+    </div>
+
+    <div class="chat-input-area">
+        <input type="text" class="chat-input" id="chatInput" placeholder="Ketik pertanyaan Anda..." autocomplete="off">
+        <button class="chat-send-btn" id="chatSend" title="Kirim">➤</button>
+    </div>
+</div>
+
+<script>
+// ============================================================
+// Chat Widget Controller
+// ============================================================
+const API_BASE = 'http://localhost:8000';
+
+const chatWidget = document.getElementById('chatWidget');
+const chatToggle = document.getElementById('chatToggle');
+const chatClose = document.getElementById('chatClose');
+const chatReset = document.getElementById('chatReset');
+const chatMessages = document.getElementById('chatMessages');
+const chatInput = document.getElementById('chatInput');
+const chatSend = document.getElementById('chatSend');
+const chatSuggestions = document.getElementById('chatSuggestions');
+const statusState = document.getElementById('statusState');
+const statusIntent = document.getElementById('statusIntent');
+const statusTransitions = document.getElementById('statusTransitions');
+const heroChatBtn = document.getElementById('heroChatBtn');
+const navChatBtn = document.getElementById('navChatBtn');
+
+let sessionId = null;
+let isOpen = false;
+let isLoading = false;
+
+// ── Toggle Widget ──
+function toggleChat() {
+    isOpen = !isOpen;
+    chatWidget.classList.toggle('open', isOpen);
+    chatToggle.textContent = isOpen ? '✕' : '💬';
+    if (isOpen && chatMessages.children.length === 0) {
+        initChat();
+    }
+}
+
+chatToggle.addEventListener('click', toggleChat);
+chatClose.addEventListener('click', toggleChat);
+heroChatBtn.addEventListener('click', (e) => { e.preventDefault(); if (!isOpen) toggleChat(); });
+navChatBtn.addEventListener('click', (e) => { e.preventDefault(); if (!isOpen) toggleChat(); });
+
+// ── Init Chat ──
+function initChat() {
+    addBotMessage(
+        'Halo! Selamat datang di Chatbot Akademik UPGRIS!\n\n' +
+        'Saya asisten virtual berbasis Finite State Machine (FSM) yang siap membantu Anda mendapatkan informasi akademik UPGRIS.\n\n' +
+        'Silakan ketik pertanyaan atau pilih topik di bawah! 😊'
+    );
+    loadSuggestions();
+}
+
+// ── Add Messages ──
+function addBotMessage(text, meta = null) {
+    const wrapper = document.createElement('div');
+    wrapper.className = 'chat-msg bot';
+
+    let metaHtml = '';
+    if (meta) {
+        const badgeClass = meta.accepted ? 'accepted' : 'fallback';
+        const badgeText = meta.accepted ? '✓ Accepted' : '✗ Fallback';
+        metaHtml = `
+            <div class="chat-msg-meta">
+                ${meta.transition}<br>
+                <span class="fsm-badge ${badgeClass}">${badgeText}</span>
+            </div>
+        `;
+    }
+
+    wrapper.innerHTML = `
+        <div class="chat-msg-avatar">🎓</div>
+        <div>
+            <div class="chat-msg-bubble">${formatText(text)}</div>
+            ${metaHtml}
+        </div>
+    `;
+    chatMessages.appendChild(wrapper);
+    scrollToBottom();
+}
+
+function addUserMessage(text) {
+    const wrapper = document.createElement('div');
+    wrapper.className = 'chat-msg user';
+    wrapper.innerHTML = `
+        <div class="chat-msg-avatar">👤</div>
+        <div>
+            <div class="chat-msg-bubble">${escapeHtml(text)}</div>
+        </div>
+    `;
+    chatMessages.appendChild(wrapper);
+    scrollToBottom();
+}
+
+function addTypingIndicator() {
+    const wrapper = document.createElement('div');
+    wrapper.className = 'chat-msg bot';
+    wrapper.id = 'typingIndicator';
+    wrapper.innerHTML = `
+        <div class="chat-msg-avatar">🎓</div>
+        <div class="chat-msg-bubble">
+            <div class="typing-indicator">
+                <div class="typing-dot"></div>
+                <div class="typing-dot"></div>
+                <div class="typing-dot"></div>
+            </div>
+        </div>
+    `;
+    chatMessages.appendChild(wrapper);
+    scrollToBottom();
+}
+
+function removeTypingIndicator() {
+    const el = document.getElementById('typingIndicator');
+    if (el) el.remove();
+}
+
+function scrollToBottom() {
+    chatMessages.scrollTop = chatMessages.scrollHeight;
+}
+
+// ── Format Text (markdown-lite) ──
+function formatText(text) {
+    let html = escapeHtml(text);
+    // Bold **text**
+    html = html.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+    // Italic _text_
+    html = html.replace(/(?<!\w)_(.+?)_(?!\w)/g, '<em>$1</em>');
+    // Links
+    html = html.replace(/(https?:\/\/[^\s<]+)/g, '<a href="$1" target="_blank" style="color: var(--primary);">$1</a>');
+    // Line breaks
+    html = html.replace(/\n/g, '<br>');
+    return html;
+}
+
+function escapeHtml(text) {
+    const div = document.createElement('div');
+    div.textContent = text;
+    return div.innerHTML;
+}
+
+// ── Send Message ──
+async function sendMessage(text) {
+    if (!text.trim() || isLoading) return;
+
+    addUserMessage(text);
+    chatInput.value = '';
+    chatInput.focus();
+    isLoading = true;
+    chatSend.disabled = true;
+
+    addTypingIndicator();
+
+    try {
+        const resp = await fetch(`${API_BASE}/api/chat`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                message: text,
+                session_id: sessionId,
+            }),
+        });
+
+        removeTypingIndicator();
+
+        if (!resp.ok) {
+            addBotMessage('Maaf, terjadi kesalahan pada server. Pastikan API berjalan di localhost:8000.');
+            return;
+        }
+
+        const data = await resp.json();
+        sessionId = data.session_id;
+
+        // Update status bar
+        statusState.textContent = data.current_state;
+        statusIntent.textContent = data.intent;
+        statusTransitions.textContent = data.total_transitions;
+
+        // Add bot response
+        addBotMessage(data.response, {
+            accepted: data.accepted,
+            transition: data.transition,
+        });
+    } catch (err) {
+        removeTypingIndicator();
+        addBotMessage(
+            'Tidak dapat terhubung ke server API.\n\n' +
+            'Pastikan API berjalan dengan perintah:\nuvicorn api:app --reload --port 8000'
+        );
+    } finally {
+        isLoading = false;
+        chatSend.disabled = false;
+    }
+}
+
+chatSend.addEventListener('click', () => sendMessage(chatInput.value));
+chatInput.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' && !e.shiftKey) {
+        e.preventDefault();
+        sendMessage(chatInput.value);
+    }
+});
+
+// ── Reset ──
+chatReset.addEventListener('click', async () => {
+    if (sessionId) {
+        try {
+            await fetch(`${API_BASE}/api/reset`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ session_id: sessionId }),
+            });
+        } catch {}
+    }
+
+    sessionId = null;
+    chatMessages.innerHTML = '';
+    statusState.textContent = 'IDLE';
+    statusIntent.textContent = '-';
+    statusTransitions.textContent = '1';
+    initChat();
+});
+
+// ── Load Suggestions ──
+async function loadSuggestions() {
+    const defaults = [
+        'Apa itu UPGRIS?',
+        'Prodi Informatika',
+        'Dosen Informatika',
+        'Kurikulum',
+        'Cara daftar PMB',
+        'Biaya kuliah',
+        'Beasiswa',
+        'MBKM',
+        'FAQ',
+    ];
+
+    let suggestions = defaults;
+
+    try {
+        const resp = await fetch(`${API_BASE}/api/suggestions`);
+        if (resp.ok) {
+            const data = await resp.json();
+            if (data.suggestions && data.suggestions.length > 0) {
+                suggestions = data.suggestions.slice(0, 12);
+            }
+        }
+    } catch {}
+
+    chatSuggestions.innerHTML = '';
+    suggestions.forEach(s => {
+        const btn = document.createElement('button');
+        btn.className = 'chat-suggestion-btn';
+        btn.textContent = s;
+        btn.addEventListener('click', () => sendMessage(s));
+        chatSuggestions.appendChild(btn);
+    });
+}
+</script>
+
+</body>
+</html>

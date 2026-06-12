@@ -1,0 +1,489 @@
+{
+    "fakultas": [
+        {
+            "id": "FIP",
+            "nama": "Fakultas Ilmu Pendidikan",
+            "singkatan": "FIP",
+            "prodi": [
+                {
+                    "id": "BK",
+                    "nama": "S1 Bimbingan dan Konseling",
+                    "akreditasi": "A",
+                    "biaya_ukt": 6056250,
+                    "biaya_detail": {
+                        "angsuran_1": 3081250,
+                        "pra_kuliah": 1400000,
+                        "ukp": 1575000,
+                        "total": 6056250
+                    }
+                },
+                {
+                    "id": "PGSD",
+                    "nama": "S1 Pendidikan Guru Sekolah Dasar",
+                    "akreditasi": "A",
+                    "biaya_ukt": 8600000,
+                    "biaya_detail": {
+                        "angsuran_1": 5625000,
+                        "pra_kuliah": 1400000,
+                        "ukp": 1575000,
+                        "total": 8600000
+                    }
+                },
+                {
+                    "id": "PGPAUD",
+                    "nama": "S1 Pendidikan Guru Pendidikan Anak Usia Dini",
+                    "akreditasi": "B",
+                    "biaya_ukt": 4440625,
+                    "biaya_detail": {
+                        "angsuran_1": 1465625,
+                        "pra_kuliah": 1400000,
+                        "ukp": 1575000,
+                        "total": 4440625
+                    }
+                }
+            ]
+        },
+        {
+            "id": "FPIPSKR",
+            "nama": "Fakultas Pendidikan Ilmu Pengetahuan Sosial dan Keolahragaan",
+            "singkatan": "FPIPSKR",
+            "prodi": [
+                {
+                    "id": "PPKN",
+                    "nama": "S1 Pendidikan Pancasila dan Kewarganegaraan",
+                    "akreditasi": "A",
+                    "biaya_ukt": 4500000,
+                    "biaya_detail": {
+                        "angsuran_1": 1525000,
+                        "pra_kuliah": 1400000,
+                        "ukp": 1575000,
+                        "total": 4500000
+                    }
+                },
+                {
+                    "id": "PEKONOMI",
+                    "nama": "S1 Pendidikan Ekonomi",
+                    "akreditasi": "A",
+                    "biaya_ukt": 5235000,
+                    "biaya_detail": {
+                        "angsuran_1": 2260000,
+                        "pra_kuliah": 1400000,
+                        "ukp": 1575000,
+                        "total": 5235000
+                    }
+                },
+                {
+                    "id": "PJKR",
+                    "nama": "S1 Pendidikan Jasmani, Kesehatan, dan Rekreasi",
+                    "akreditasi": "A",
+                    "biaya_ukt": 7325000,
+                    "biaya_detail": {
+                        "angsuran_1": 4350000,
+                        "pra_kuliah": 1400000,
+                        "ukp": 1575000,
+                        "total": 7325000
+                    }
+                }
+            ]
+        },
+        {
+            "id": "FPBS",
+            "nama": "Fakultas Pendidikan Bahasa dan Seni",
+            "singkatan": "FPBS",
+            "prodi": [
+                {
+                    "id": "PBSI",
+                    "nama": "S1 Pendidikan Bahasa dan Sastra Indonesia",
+                    "akreditasi": "A",
+                    "biaya_ukt": 6773125,
+                    "biaya_detail": {
+                        "angsuran_1": 3798125,
+                        "pra_kuliah": 1400000,
+                        "ukp": 1575000,
+                        "total": 6773125
+                    }
+                },
+                {
+                    "id": "PBI",
+                    "nama": "S1 Pendidikan Bahasa Inggris",
+                    "akreditasi": "A",
+                    "biaya_ukt": 6773125,
+                    "biaya_detail": {
+                        "angsuran_1": 3798125,
+                        "pra_kuliah": 1400000,
+                        "ukp": 1575000,
+                        "total": 6773125
+                    }
+                },
+                {
+                    "id": "PBD",
+                    "nama": "S1 Pendidikan Bahasa Daerah (Jawa)",
+                    "akreditasi": "B",
+                    "biaya_ukt": 4250000,
+                    "biaya_detail": {
+                        "angsuran_1": 1275000,
+                        "pra_kuliah": 1400000,
+                        "ukp": 1575000,
+                        "total": 4250000
+                    }
+                }
+            ]
+        },
+        {
+            "id": "FPMIPATI",
+            "nama": "Fakultas Pendidikan Matematika, Ilmu Pengetahuan Alam, dan Teknologi Informasi",
+            "singkatan": "FPMIPATI",
+            "prodi": [
+                {
+                    "id": "PMATEMATIKA",
+                    "nama": "S1 Pendidikan Matematika",
+                    "akreditasi": "A",
+                    "biaya_ukt": 6550000,
+                    "biaya_detail": {
+                        "angsuran_1": 3575000,
+                        "pra_kuliah": 1400000,
+                        "ukp": 1575000,
+                        "total": 6550000
+                    }
+                },
+                {
+                    "id": "PBIOLOGI",
+                    "nama": "S1 Pendidikan Biologi",
+                    "akreditasi": "A",
+                    "biaya_ukt": 5202500,
+                    "biaya_detail": {
+                        "angsuran_1": 2227500,
+                        "pra_kuliah": 1400000,
+                        "ukp": 1575000,
+                        "total": 5202500
+                    }
+                },
+                {
+                    "id": "PFISIKA",
+                    "nama": "S1 Pendidikan Fisika",
+                    "akreditasi": "B",
+                    "biaya_ukt": 4250000,
+                    "biaya_detail": {
+                        "angsuran_1": 1275000,
+                        "pra_kuliah": 1400000,
+                        "ukp": 1575000,
+                        "total": 4250000
+                    }
+                },
+                {
+                    "id": "PTI",
+                    "nama": "S1 Pendidikan Teknologi Informasi",
+                    "akreditasi": "B",
+                    "biaya_ukt": 4381250,
+                    "biaya_detail": {
+                        "angsuran_1": 1406250,
+                        "pra_kuliah": 1400000,
+                        "ukp": 1575000,
+                        "total": 4381250
+                    }
+                }
+            ]
+        },
+        {
+            "id": "FT",
+            "nama": "Fakultas Teknik",
+            "singkatan": "FT",
+            "prodi": [
+                {
+                    "id": "TSIPIL",
+                    "nama": "S1 Teknik Sipil",
+                    "akreditasi": "B",
+                    "biaya_ukt": 5018750,
+                    "biaya_detail": {
+                        "angsuran_1": 2043750,
+                        "pra_kuliah": 1400000,
+                        "ukp": 1575000,
+                        "total": 5018750
+                    }
+                },
+                {
+                    "id": "TELEKTRO",
+                    "nama": "S1 Teknik Elektro",
+                    "akreditasi": "B",
+                    "biaya_ukt": 4437500,
+                    "biaya_detail": {
+                        "angsuran_1": 1462500,
+                        "pra_kuliah": 1400000,
+                        "ukp": 1575000,
+                        "total": 4437500
+                    }
+                },
+                {
+                    "id": "TINFORMATIKA",
+                    "nama": "S1 Teknik Informatika",
+                    "akreditasi": "Baik Sekali",
+                    "biaya_ukt": 5406250,
+                    "biaya_detail": {
+                        "angsuran_1": 2431250,
+                        "pra_kuliah": 1400000,
+                        "ukp": 1575000,
+                        "total": 5406250
+                    }
+                },
+                {
+                    "id": "TPANGAN",
+                    "nama": "S1 Teknologi Pangan",
+                    "akreditasi": "B",
+                    "biaya_ukt": 4568750,
+                    "biaya_detail": {
+                        "angsuran_1": 1593750,
+                        "pra_kuliah": 1400000,
+                        "ukp": 1575000,
+                        "total": 4568750
+                    }
+                },
+                {
+                    "id": "TMESIN",
+                    "nama": "S1 Teknik Mesin",
+                    "akreditasi": "B",
+                    "biaya_ukt": 5668750,
+                    "biaya_detail": {
+                        "angsuran_1": 2693750,
+                        "pra_kuliah": 1400000,
+                        "ukp": 1575000,
+                        "total": 5668750
+                    }
+                },
+                {
+                    "id": "ARSITEKTUR",
+                    "nama": "S1 Teknik Arsitektur",
+                    "akreditasi": "B",
+                    "biaya_ukt": 4756250,
+                    "biaya_detail": {
+                        "angsuran_1": 1781250,
+                        "pra_kuliah": 1400000,
+                        "ukp": 1575000,
+                        "total": 4756250
+                    }
+                }
+            ]
+        },
+        {
+            "id": "FH",
+            "nama": "Fakultas Hukum",
+            "singkatan": "FH",
+            "prodi": [
+                {
+                    "id": "HUKUM",
+                    "nama": "S1 Hukum",
+                    "akreditasi": "B",
+                    "biaya_ukt": 4762500,
+                    "biaya_detail": {
+                        "angsuran_1": 1787500,
+                        "pra_kuliah": 1400000,
+                        "ukp": 1575000,
+                        "total": 4762500
+                    }
+                }
+            ]
+        },
+        {
+            "id": "FEB",
+            "nama": "Fakultas Ekonomi dan Bisnis",
+            "singkatan": "FEB",
+            "prodi": [
+                {
+                    "id": "MANAJEMEN",
+                    "nama": "S1 Manajemen",
+                    "akreditasi": "A",
+                    "biaya_ukt": 6687500,
+                    "biaya_detail": {
+                        "angsuran_1": 3712500,
+                        "pra_kuliah": 1400000,
+                        "ukp": 1575000,
+                        "total": 6687500
+                    }
+                },
+                {
+                    "id": "AKUNTANSI",
+                    "nama": "S1 Akuntansi",
+                    "akreditasi": "A",
+                    "biaya_ukt": 4400000
+                },
+                {
+                    "id": "BISNIS_DIGITAL",
+                    "nama": "S1 Bisnis Digital",
+                    "akreditasi": "Baik",
+                    "biaya_ukt": 4381250,
+                    "biaya_detail": {
+                        "angsuran_1": 1406250,
+                        "pra_kuliah": 1400000,
+                        "ukp": 1575000,
+                        "total": 4381250
+                    }
+                }
+            ]
+        },
+        {
+            "id": "FK",
+            "nama": "Fakultas Kedokteran",
+            "singkatan": "FK",
+            "prodi": [
+                {
+                    "id": "KEDOKTERAN",
+                    "nama": "S1 Kedokteran",
+                    "akreditasi": "Baik",
+                    "biaya_ukt": 22000000
+                },
+                {
+                    "id": "PROFESI_DOKTER",
+                    "nama": "Pendidikan Profesi Dokter",
+                    "akreditasi": "Baik",
+                    "biaya_ukt": 15000000
+                }
+            ]
+        },
+        {
+            "id": "PASCASARJANA",
+            "nama": "Program Pascasarjana",
+            "singkatan": "Pascasarjana",
+            "prodi": [
+                {
+                    "id": "S2MP",
+                    "nama": "S2 Manajemen Pendidikan",
+                    "akreditasi": "Unggul",
+                    "biaya_ukt": 7500000
+                },
+                {
+                    "id": "S2PBI",
+                    "nama": "S2 Pendidikan Bahasa Indonesia",
+                    "akreditasi": "A",
+                    "biaya_ukt": 7000000
+                },
+                {
+                    "id": "S2PM",
+                    "nama": "S2 Pendidikan Matematika",
+                    "akreditasi": "B",
+                    "biaya_ukt": 7000000
+                },
+                {
+                    "id": "S2PDES",
+                    "nama": "S2 Pendidikan Dasar",
+                    "akreditasi": "B",
+                    "biaya_ukt": 7000000
+                },
+                {
+                    "id": "S2PENG",
+                    "nama": "S2 Pendidikan Bahasa Inggris",
+                    "akreditasi": "B",
+                    "biaya_ukt": 7000000
+                },
+                {
+                    "id": "PPG",
+                    "nama": "Pendidikan Profesi Guru (PPG)",
+                    "akreditasi": "A",
+                    "biaya_ukt": 8500000
+                }
+            ]
+        }
+    ],
+    "pmb": {
+        "cara_daftar": "Pendaftaran calon mahasiswa baru UPGRIS dilakukan secara online melalui portal resmi PMB di https://pmb.upgris.ac.id. Calon mahasiswa mengisi formulir pendaftaran, memilih jalur masuk, melengkapi biodata diri, mengunggah berkas persyaratan, melakukan pembayaran biaya pendaftaran, kemudian mengikuti ujian seleksi (jika mengambil jalur reguler/tes) atau menunggu pengumuman hasil seleksi berkas.",
+        "biaya_pendaftaran": "Biaya pendaftaran untuk Program Sarjana (S1) adalah Rp 250.000 untuk kelas reguler dan Rp 350.000 untuk kelas khusus/kedokteran. Untuk Pascasarjana (S2) sebesar Rp 500.000.",
+        "jalur_pendaftaran": [
+            {
+                "nama": "Jalur Reguler (Tes)",
+                "deskripsi": "Jalur masuk menggunakan ujian tertulis/Computer Based Test (CBT) yang diselenggarakan oleh panitia PMB UPGRIS."
+            },
+            {
+                "nama": "Jalur Prestasi (Tanpa Tes)",
+                "deskripsi": "Jalur khusus untuk siswa berprestasi akademik (peringkat kelas, nilai rapor tinggi) atau non-akademik (juara olahraga, seni, keagamaan tingkat kabupaten/provinsi/nasional)."
+            },
+            {
+                "nama": "Jalur KIP-Kuliah",
+                "deskripsi": "Jalur bantuan biaya pendidikan dari pemerintah untuk lulusan SMA/SMK sederajat yang berprestasi akademik namun memiliki keterbatasan ekonomi."
+            },
+            {
+                "nama": "Jalur Alih Jenjang & Pindahan",
+                "deskripsi": "Jalur bagi lulusan Diploma (D3) yang ingin melanjutkan ke jenjang Sarjana (S1), atau mahasiswa pindahan dari universitas lain."
+            }
+        ],
+        "persyaratan": [
+            "Mengisi formulir pendaftaran secara online di pmb.upgris.ac.id.",
+            "Fotokopi Ijazah SMA/SMK/MA sederajat atau Surat Keterangan Lulus (SKL) yang dilegalisir (1 lembar).",
+            "Fotokopi Kartu Keluarga (KK) dan KTP / Kartu Identitas Anak (1 lembar).",
+            "Pasfoto terbaru berwarna ukuran 3x4 (2 lembar).",
+            "Bagi jalur prestasi: melampirkan fotokopi rapor semester 1-5 atau sertifikat piagam penghargaan prestasi.",
+            "Bagi program studi PJKR dan Kedokteran: melampirkan surat keterangan sehat dan bebas buta warna dari dokter."
+        ]
+    },
+    "beasiswa": [
+        {
+            "nama": "Kartu Indonesia Pintar (KIP) Kuliah",
+            "sumber": "Pemerintah (Kemendikbudristek)",
+            "syarat": "Siswa SMA/sederajat lulusan tahun berjalan atau maksimal 2 tahun sebelumnya, memiliki potensi akademik baik tetapi memiliki keterbatasan ekonomi yang dibuktikan dengan kepemilikan KIP/PKH atau terdaftar di DTKS Dinas Sosial. Lulus seleksi PMB UPGRIS jalur KIP-K."
+        },
+        {
+            "nama": "Beasiswa Prestasi Akademik & Non-Akademik UPGRIS",
+            "sumber": "Yayasan & Rektorat UPGRIS",
+            "syarat": "Mahasiswa aktif berprestasi IPK minimal 3.50 untuk prestasi akademik, atau memiliki sertifikat juara minimal tingkat provinsi dalam bidang olahraga, seni, sains, maupun keagamaan."
+        },
+        {
+            "nama": "Beasiswa Yayasan Pembina IKIP PGRI Semarang",
+            "sumber": "Yayasan Pembina",
+            "syarat": "Diperuntukkan bagi mahasiswa yang kurang mampu secara ekonomi namun menunjukkan komitmen belajar yang kuat, berkelakuan baik, serta tidak sedang menerima beasiswa lain."
+        },
+        {
+            "nama": "Beasiswa PPA (Peningkatan Prestasi Akademik)",
+            "sumber": "Kemendikbudristek melalui LLDIKTI",
+            "syarat": "Mahasiswa aktif minimal semester 2, memiliki IPK minimal 3.00, melampirkan surat keterangan tidak mampu (jika ada), surat rekomendasi dari Dekan/Kaprodi, aktif berorganisasi."
+        }
+    ],
+    "layanan_akademik": {
+        "krs": {
+            "deskripsi": "Kartu Rencana Studi (KRS) adalah dokumen yang memuat daftar mata kuliah yang akan diambil mahasiswa pada semester bersangkutan.",
+            "prosedur": "1. Mahasiswa melunasi pembayaran SPP/UKT semester berjalan.\n2. Login ke SIAKAD UPGRIS menggunakan NIM dan password.\n3. Masuk ke menu Pengisian KRS.\n4. Pilih kelas dan mata kuliah sesuai kurikulum/paket semester.\n5. Lakukan konsultasi dan ajukan persetujuan (approval) kepada Dosen Wali secara online atau langsung.\n6. Cetak KRS sebagai bukti registrasi akademik."
+        },
+        "khs": {
+            "deskripsi": "Kartu Hasil Studi (KHS) merupakan laporan nilai akademik mahasiswa yang diperoleh setelah menyelesaikan ujian akhir di setiap semester.",
+            "prosedur": "1. Pastikan dosen pengampu telah selesai melakukan input nilai di SIAKAD.\n2. Login ke akun SIAKAD masing-masing.\n3. Masuk ke menu KHS, lalu pilih semester yang ingin dilihat.\n4. KHS dapat langsung diunduh dalam format PDF atau dicetak untuk keperluan administrasi akademik."
+        },
+        "kalender_akademik": {
+            "semester_ganjil": "Mulai bulan September hingga Februari tahun berikutnya. UTS dilaksanakan sekitar bulan November, dan UAS pada bulan Januari.",
+            "semester_genap": "Mulai bulan Maret hingga Agustus. UTS dilaksanakan sekitar bulan Mei, dan UAS pada bulan Juli.",
+            "libur_akademik": "Biasanya diberikan jeda 2-4 minggu setelah UAS sebelum memasuki semester baru."
+        }
+    },
+    "alur_kelulusan": {
+        "skripsi": {
+            "syarat": [
+                "Telah menempuh minimal 115 SKS.",
+                "Indeks Prestasi Kumulatif (IPK) minimal 2.00.",
+                "Tidak ada nilai E, dan nilai D tidak melebihi 10% dari total SKS.",
+                "Lulus mata kuliah Metodologi Penelitian dengan nilai minimal C."
+            ],
+            "prosedur": "1. Mengajukan topik/judul skripsi kepada Program Studi.\n2. Program studi memvalidasi dan menentukan Dosen Pembimbing I dan II.\n3. Mahasiswa menyusun proposal skripsi dengan bimbingan dosen.\n4. Melaksanakan Ujian Seminar Proposal.\n5. Melakukan penelitian dan penyusunan draf skripsi.\n6. Mendaftar dan menempuh Ujian Sidang Skripsi (Munaqasah).\n7. Melakukan revisi skripsi dan pengesahan."
+        },
+        "pkl": {
+            "syarat": [
+                "Telah menempuh minimal 90 SKS.",
+                "Terdaftar sebagai mahasiswa aktif pada semester bersangkutan.",
+                "Mengambil mata kuliah PKL / Magang di KRS."
+            ],
+            "prosedur": "1. Mengajukan permohonan lokasi PKL ke Koordinator PKL program studi.\n2. Mengambil surat pengantar PKL dari Fakultas/Jurusan untuk dikirim ke perusahaan/instansi tujuan.\n3. Melaksanakan PKL selama waktu yang ditentukan (rata-rata 1-2 bulan).\n4. Menyusun laporan PKL dengan bimbingan Dosen Pembimbing PKL dan Pembimbing Lapangan.\n5. Menempuh ujian atau menyerahkan nilai evaluasi PKL dari instansi."
+        },
+        "kkn": {
+            "syarat": [
+                "Telah menempuh minimal 100 SKS.",
+                "Mendaftar KKN secara online melalui sistem LPPM UPGRIS.",
+                "Membayar biaya operasional KKN sesuai ketentuan."
+            ],
+            "prosedur": "1. Mengikuti pembekalan KKN yang diselenggarakan LPPM.\n2. Penempatan kelompok mahasiswa ke desa/kecamatan sasaran.\n3. Melaksanakan program kerja KKN di masyarakat selama 1-2 bulan.\n4. Menyusun laporan kelompok dan individu tentang program kerja KKN.\n5. Mengikuti evaluasi dan penilaian dari Dosen Pembimbing Lapangan (DPL)."
+        },
+        "wisuda": {
+            "syarat": [
+                "Dinyatakan lulus dalam Ujian Sidang Skripsi.",
+                "Bebas dari segala tanggungan administrasi keuangan kampus.",
+                "Bebas pinjaman perpustakaan pusat maupun perpustakaan fakultas.",
+                "Mengunggah artikel ilmiah hasil skripsi ke repositori UPGRIS.",
+                "Menyerahkan pasfoto cetak terbaru sesuai instruksi BAAK."
+            ],
+            "prosedur": "1. Mendaftar wisuda secara online melalui portal wisuda.upgris.ac.id.\n2. Melakukan validasi berkas fisik kelulusan ke BAAK.\n3. Melakukan pembayaran biaya wisuda.\n4. Mengambil kelengkapan wisuda (toga, undangan, dll.) di fakultas.\n5. Mengikuti prosesi gladi bersih dan upacara wisuda pada tanggal yang ditentukan."
+        }
+    }
+}

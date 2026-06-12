@@ -1,0 +1,29 @@
+{
+  "faq": [
+    {
+      "question": "Apa saja yang bisa ditanyakan?",
+      "answer": "Anda dapat bertanya tentang profil UPGRIS, profil Informatika, fakultas, prodi, dosen, kurikulum, PMB, biaya kuliah, beasiswa, MBKM, KRS, KHS, IPK, jadwal kuliah, skripsi, wisuda, layanan surat, dan pengaduan."
+    },
+    {
+      "question": "Apakah chatbot ini menggunakan AI?",
+      "answer": "Tidak. Chatbot ini menggunakan Finite State Machine (FSM) dan rule-based keyword matching sesuai materi Teori Bahasa dan Otomata. Setiap input pengguna diproses melalui tahapan state FSM untuk menghasilkan respons yang sesuai."
+    },
+    {
+      "question": "Apa fungsi FSM dalam chatbot ini?",
+      "answer": "FSM (Finite State Machine) digunakan untuk menentukan perpindahan state berdasarkan input (pertanyaan) pengguna. Setiap pertanyaan dideteksi intent-nya, lalu FSM berpindah ke state yang sesuai dan menghasilkan output berupa informasi akademik."
+    },
+    {
+      "question": "Bagaimana jika pertanyaan saya tidak dikenali?",
+      "answer": "Jika pertanyaan tidak mengandung kata kunci yang dikenali, sistem akan masuk ke state ERROR (fallback) dan memberikan rekomendasi topik yang bisa ditanyakan, lalu kembali ke state IDLE."
+    },
+    {
+      "question": "Apakah data dalam chatbot ini akurat?",
+      "answer": "Data yang disajikan bersifat informatif dan berdasarkan sumber resmi UPGRIS. Namun, untuk informasi terbaru dan paling akurat, disarankan mengunjungi website resmi UPGRIS atau menghubungi pihak kampus."
+    },
+    {
+      "question": "Siapa yang membuat chatbot ini?",
+      "answer": "Chatbot ini dibuat sebagai tugas mata kuliah Teori Bahasa dan Otomata di Program Studi Informatika, Universitas PGRI Semarang."
+    }
+  ],
+  "catatan": "FAQ dapat diperbarui sesuai kebutuhan."
+}

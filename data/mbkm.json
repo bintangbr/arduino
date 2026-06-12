@@ -1,0 +1,42 @@
+{
+  "deskripsi": "MBKM (Merdeka Belajar - Kampus Merdeka) adalah kebijakan Kementerian Pendidikan yang memberikan kesempatan kepada mahasiswa untuk belajar di luar program studi selama maksimal 3 semester. Program ini bertujuan meningkatkan kompetensi, pengalaman, dan kesiapan kerja mahasiswa.",
+  "program": [
+    {
+      "nama": "Magang / Praktik Kerja",
+      "keterangan": "Mahasiswa bekerja di perusahaan atau industri untuk mendapatkan pengalaman kerja nyata selama 1-2 semester."
+    },
+    {
+      "nama": "Studi Independen",
+      "keterangan": "Mahasiswa mengerjakan proyek mandiri di bawah bimbingan mentor industri atau dosen."
+    },
+    {
+      "nama": "Pertukaran Mahasiswa",
+      "keterangan": "Mahasiswa belajar di perguruan tinggi lain di dalam maupun luar negeri."
+    },
+    {
+      "nama": "Kampus Mengajar",
+      "keterangan": "Mahasiswa membantu proses pembelajaran di sekolah dasar dan menengah."
+    },
+    {
+      "nama": "KKN Tematik",
+      "keterangan": "Kuliah Kerja Nyata dengan tema tertentu di masyarakat."
+    },
+    {
+      "nama": "Riset / Penelitian",
+      "keterangan": "Mahasiswa melakukan penelitian di lembaga riset atau perguruan tinggi."
+    },
+    {
+      "nama": "Wirausaha",
+      "keterangan": "Mahasiswa mengembangkan usaha atau startup sebagai bagian dari pembelajaran."
+    }
+  ],
+  "manfaat": [
+    "Mendapatkan pengalaman di luar kampus",
+    "Meningkatkan soft skill dan hard skill",
+    "Memperoleh konversi SKS dari kegiatan MBKM",
+    "Membangun jaringan profesional",
+    "Meningkatkan kesiapan kerja"
+  ],
+  "catatan": "Informasi detail tentang MBKM di UPGRIS dapat diperoleh dari bagian kemahasiswaan atau koordinator MBKM prodi.",
+  "source_url": "https://upgris.ac.id"
+}

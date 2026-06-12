@@ -1,0 +1,34 @@
+{
+  "deskripsi": "Kurikulum Program Studi Informatika UPGRIS disusun untuk mendukung kompetensi mahasiswa di bidang teknologi informasi. Kurikulum mengacu pada standar nasional dan kebutuhan industri IT terkini.",
+  "total_semester": 8,
+  "total_sks": 144,
+  "topik_utama": [
+    "Algoritma dan Pemrograman",
+    "Struktur Data",
+    "Basis Data",
+    "Pemrograman Web",
+    "Pemrograman Mobile",
+    "Jaringan Komputer",
+    "Kecerdasan Buatan",
+    "Data Science",
+    "Rekayasa Perangkat Lunak",
+    "Cloud Computing",
+    "Internet of Things",
+    "Keamanan Siber",
+    "Teori Bahasa dan Otomata",
+    "Sistem Operasi",
+    "Matematika Diskrit"
+  ],
+  "peminatan": [
+    {
+      "nama": "Web Programmer",
+      "fokus": "Pengembangan aplikasi berbasis web menggunakan teknologi frontend dan backend modern"
+    },
+    {
+      "nama": "Artificial Intelligence Engineer",
+      "fokus": "Pengembangan sistem cerdas, machine learning, deep learning, dan pengolahan data"
+    }
+  ],
+  "catatan": "Detail mata kuliah per semester dapat dilihat di website resmi Prodi Informatika UPGRIS.",
+  "source_url": "https://informatika.upgris.ac.id"
+}

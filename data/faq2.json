@@ -1,0 +1,1027 @@
+[
+    {
+        "id": "FAQ_001",
+        "pertanyaan": "Bagaimana cara daftar kuliah di UPGRIS?",
+        "jawaban": "Pendaftaran dilakukan secara online melalui portal resmi PMB di https://pmb.upgris.ac.id. Calon mahasiswa harus membuat akun, mengisi data diri, mengunggah dokumen persyaratan, membayar biaya registrasi, dan mengikuti seleksi sesuai jalur yang dipilih."
+    },
+    {
+        "id": "FAQ_002",
+        "pertanyaan": "Kapan pendaftaran mahasiswa baru UPGRIS dibuka?",
+        "jawaban": "Pendaftaran PMB UPGRIS biasanya dibuka mulai bulan Januari hingga September setiap tahunnya, yang terbagi dalam beberapa gelombang pendaftaran (Gelombang 1, Gelombang 2, dan Gelombang 3)."
+    },
+    {
+        "id": "FAQ_003",
+        "pertanyaan": "Di mana alamat link pendaftaran online UPGRIS?",
+        "jawaban": "Pendaftaran online dapat diakses melalui website pmb.upgris.ac.id."
+    },
+    {
+        "id": "FAQ_004",
+        "pertanyaan": "Apa saja jalur masuk yang ada di UPGRIS?",
+        "jawaban": "UPGRIS menyediakan Jalur Reguler (Tes CBT), Jalur Prestasi (Tanpa Tes berbasis rapor/piagam), Jalur KIP-Kuliah, dan Jalur Alih Jenjang/Pindahan."
+    },
+    {
+        "id": "FAQ_005",
+        "pertanyaan": "Apakah ada pendaftaran jalur tanpa tes di UPGRIS?",
+        "jawaban": "Ya, ada. Yaitu Jalur Prestasi Akademik (menggunakan nilai rapor) dan Jalur Prestasi Non-Akademik (menggunakan sertifikat piagam kejuaraan minimal tingkat kabupaten)."
+    },
+    {
+        "id": "FAQ_006",
+        "pertanyaan": "Apa syarat daftar lewat jalur prestasi?",
+        "jawaban": "Syaratnya adalah nilai rata-rata rapor semester 1-5 minimal 75-80, atau menyertakan piagam juara (olahraga, seni, keagamaan, dll.) minimal juara 3 tingkat kabupaten/kota."
+    },
+    {
+        "id": "FAQ_007",
+        "pertanyaan": "Bagaimana cara mendaftar KIP Kuliah di UPGRIS?",
+        "jawaban": "Daftar terlebih dahulu di portal KIP-Kuliah Kemendikbudristek, pilih seleksi mandiri PTS Universitas PGRI Semarang, kemudian daftarkan akun KIP-K Anda saat mendaftar online di pmb.upgris.ac.id."
+    },
+    {
+        "id": "FAQ_008",
+        "pertanyaan": "Apakah ada biaya pendaftaran untuk jalur KIP Kuliah?",
+        "jawaban": "Calon mahasiswa pemegang nomor pendaftaran KIP-K yang terverifikasi sistem biasanya dibebaskan dari biaya pendaftaran sesuai ketentuan pemerintah/kampus."
+    },
+    {
+        "id": "FAQ_009",
+        "pertanyaan": "Berapa biaya pendaftaran PMB UPGRIS?",
+        "jawaban": "Biaya pendaftaran untuk S1 Kelas Reguler adalah Rp 250.000, Kelas Khusus/Kedokteran adalah Rp 350.000, dan untuk S2/Pascasarjana adalah Rp 500.000."
+    },
+    {
+        "id": "FAQ_010",
+        "pertanyaan": "Di mana tempat pembayaran biaya pendaftaran UPGRIS?",
+        "jawaban": "Pembayaran dapat dilakukan melalui transfer bank mitra UPGRIS (seperti Bank Jateng, BRI, BNI) menggunakan nomor Virtual Account (VA) yang didapat saat daftar online."
+    },
+    {
+        "id": "FAQ_011",
+        "pertanyaan": "Apa saja dokumen persyaratan yang harus diunggah saat daftar?",
+        "jawaban": "Fotokopi ijazah/SKL dilegalisir, fotokopi KK, KTP/KIA, pasfoto berwarna terbaru, serta dokumen pendukung lain seperti rapor/piagam (khusus jalur prestasi)."
+    },
+    {
+        "id": "FAQ_012",
+        "pertanyaan": "Apakah lulusan paket C bisa mendaftar kuliah di UPGRIS?",
+        "jawaban": "Ya, lulusan SMA/SMK/MA sederajat atau lulusan Paket C yang memiliki ijazah setara dapat mendaftar di semua program studi kecuali ditentukan lain."
+    },
+    {
+        "id": "FAQ_013",
+        "pertanyaan": "Berapa batas usia maksimal pendaftar S1 reguler di UPGRIS?",
+        "jawaban": "Untuk jalur reguler umum tidak ada batasan usia yang ketat, namun khusus jalur KIP-Kuliah batas maksimal lulusan adalah 2 tahun terakhir dari tahun berjalan."
+    },
+    {
+        "id": "FAQ_014",
+        "pertanyaan": "Apakah ada tes kesehatan bagi calon mahasiswa baru?",
+        "jawaban": "Tes kesehatan dan bebas buta warna diwajibkan bagi program studi tertentu seperti S1 Kedokteran dan S1 Pendidikan Jasmani, Kesehatan, dan Rekreasi (PJKR)."
+    },
+    {
+        "id": "FAQ_015",
+        "pertanyaan": "Apakah ada kelas karyawan atau kelas malam di UPGRIS?",
+        "jawaban": "Ya, UPGRIS menyediakan kelas khusus/karyawan untuk beberapa program studi tertentu dengan jadwal kuliah sore/malam atau akhir pekan."
+    },
+    {
+        "id": "FAQ_016",
+        "pertanyaan": "Di mana lokasi ujian tes masuk CBT UPGRIS?",
+        "jawaban": "Tes CBT dilaksanakan secara online dari rumah masing-masing atau di laboratorium komputer Kampus IV UPGRIS Jl. Gajah Raya, Semarang."
+    },
+    {
+        "id": "FAQ_017",
+        "pertanyaan": "Apa materi yang diujikan dalam tes masuk UPGRIS?",
+        "jawaban": "Materi ujian meliputi Tes Potensi Akademik (TPA), Bahasa Indonesia, Bahasa Inggris, dan Tes Kemampuan Dasar sesuai rumpun program studi."
+    },
+    {
+        "id": "FAQ_018",
+        "pertanyaan": "Apakah ada seleksi wawancara untuk calon mahasiswa baru?",
+        "jawaban": "Wawancara khusus diwajibkan untuk calon mahasiswa Program Pascasarjana (S2), Program Profesi Guru (PPG), dan Fakultas Kedokteran."
+    },
+    {
+        "id": "FAQ_019",
+        "pertanyaan": "Berapa kuota penerimaan mahasiswa baru di UPGRIS setiap tahun?",
+        "jawaban": "Kuota total berkisar antara 3.000 hingga 4.000 mahasiswa baru untuk seluruh fakultas dan jenjang program studi."
+    },
+    {
+        "id": "FAQ_020",
+        "pertanyaan": "Apakah mahasiswa pindahan dari kampus lain bisa masuk UPGRIS?",
+        "jawaban": "Ya, UPGRIS menerima mahasiswa pindahan (transfer) selama program studi asal memiliki akreditasi yang setara dan kapasitas kelas masih tersedia."
+    },
+    {
+        "id": "FAQ_021",
+        "pertanyaan": "Bagaimana alur pendaftaran mahasiswa pindahan di UPGRIS?",
+        "jawaban": "Menyerahkan transkrip nilai dari kampus asal, surat pengantar pindah resmi, surat bebas sanksi, lalu divalidasi oleh program studi untuk penentuan konversi SKS."
+    },
+    {
+        "id": "FAQ_022",
+        "pertanyaan": "Apakah ada program alih jenjang dari D3 ke S1 di UPGRIS?",
+        "jawaban": "Ya, lulusan D3 dapat melakukan alih jenjang ke program studi S1 yang linier melalui mekanisme transfer kredit/konversi nilai."
+    },
+    {
+        "id": "FAQ_023",
+        "pertanyaan": "Kapan pengumuman hasil seleksi PMB UPGRIS dirilis?",
+        "jawaban": "Pengumuman hasil seleksi PMB biasanya dipublikasikan dalam waktu 3-7 hari setelah pelaksanaan ujian CBT atau setelah berkas jalur prestasi diverifikasi."
+    },
+    {
+        "id": "FAQ_024",
+        "pertanyaan": "Bagaimana cara mengecek kelulusan PMB UPGRIS?",
+        "jawaban": "Hasil kelulusan dapat dicek dengan login ke akun pendaftaran Anda di portal pmb.upgris.ac.id pada menu pengumuman."
+    },
+    {
+        "id": "FAQ_025",
+        "pertanyaan": "Apa yang harus dilakukan setelah dinyatakan lulus seleksi PMB?",
+        "jawaban": "Melakukan registrasi ulang (daftar ulang) dengan membayar biaya SPP/UKT semester pertama dan biaya pengembangan instansi sesuai tagihan."
+    },
+    {
+        "id": "FAQ_026",
+        "pertanyaan": "Apakah uang pendaftaran yang sudah dibayarkan bisa ditarik kembali?",
+        "jawaban": "Uang pendaftaran tidak dapat ditarik kembali dengan alasan apa pun karena digunakan untuk proses administrasi seleksi."
+    },
+    {
+        "id": "FAQ_027",
+        "pertanyaan": "Apakah bisa pindah pilihan program studi setelah dinyatakan diterima?",
+        "jawaban": "Perpindahan prodi setelah diterima hanya dapat diajukan sebelum melakukan registrasi ulang, dengan persetujuan panitia PMB dan kaprodi terkait."
+    },
+    {
+        "id": "FAQ_028",
+        "pertanyaan": "Apakah ada masa sanggah hasil seleksi PMB?",
+        "jawaban": "Sanggahan atas hasil seleksi dapat diajukan secara tertulis ke Sekretariat PMB di Gedung Pusat Kampus IV UPGRIS."
+    },
+    {
+        "id": "FAQ_029",
+        "pertanyaan": "Apakah UPGRIS menerima mahasiswa asing?",
+        "jawaban": "Ya, UPGRIS menerima mahasiswa asing lewat jalur kerja sama internasional dan beasiswa Kemitraan Negara Berkembang (KNB) atau mandiri."
+    },
+    {
+        "id": "FAQ_030",
+        "pertanyaan": "Di mana bisa mendapatkan brosur PMB UPGRIS?",
+        "jawaban": "Brosur fisik tersedia di pos informasi Kampus I dan Kampus IV, atau versi digital dapat diunduh di pmb.upgris.ac.id."
+    },
+    {
+        "id": "FAQ_031",
+        "pertanyaan": "Apakah pendaftaran mahasiswa baru bisa diwakilkan?",
+        "jawaban": "Proses pendaftaran online bisa dibantu orang lain, namun verifikasi berkas asli dan ujian seleksi harus dilakukan oleh calon mahasiswa bersangkutan."
+    },
+    {
+        "id": "FAQ_032",
+        "pertanyaan": "Apa saja berkas yang harus dibawa saat registrasi ulang fisik?",
+        "jawaban": "Bukti kelulusan PMB, bukti pembayaran registrasi, ijazah/SKL asli, KK asli, surat pernyataan mahasiswa baru yang ditandatangani di atas meterai."
+    },
+    {
+        "id": "FAQ_033",
+        "pertanyaan": "Kapan batas akhir daftar ulang bagi mahasiswa baru?",
+        "jawaban": "Batas akhir daftar ulang ditentukan pada masing-masing gelombang pendaftaran dan tertera di surat pengumuman kelulusan."
+    },
+    {
+        "id": "FAQ_034",
+        "pertanyaan": "Bagaimana jika terlambat melakukan registrasi ulang?",
+        "jawaban": "Calon mahasiswa yang terlambat melakukan registrasi ulang tanpa pemberitahuan tertulis dianggap mengundurkan diri."
+    },
+    {
+        "id": "FAQ_035",
+        "pertanyaan": "Apakah ada program matrikulasi untuk mahasiswa baru?",
+        "jawaban": "Matrikulasi biasanya diselenggarakan oleh program studi tertentu (seperti Pascasarjana atau Kedokteran) sebelum perkuliahan aktif dimulai."
+    },
+    {
+        "id": "FAQ_036",
+        "pertanyaan": "Apakah ada tes psikologi bagi mahasiswa baru?",
+        "jawaban": "Tes psikologi secara khusus diwajibkan bagi mahasiswa Fakultas Kedokteran dan beberapa program studi kependidikan tertentu."
+    },
+    {
+        "id": "FAQ_037",
+        "pertanyaan": "Bagaimana cara memperoleh Nomor Induk Mahasiswa (NIM)?",
+        "jawaban": "NIM akan diterbitkan secara otomatis setelah proses daftar ulang selesai dan berkas mahasiswa diverifikasi 100% oleh BAAK."
+    },
+    {
+        "id": "FAQ_038",
+        "pertanyaan": "Apakah UPGRIS menyediakan jaket almamater bagi mahasiswa baru?",
+        "jawaban": "Ya, setiap mahasiswa baru yang telah melakukan daftar ulang berhak mendapatkan jaket almamater, topi, dan muts universitas."
+    },
+    {
+        "id": "FAQ_039",
+        "pertanyaan": "Di mana tempat pengambilan atribut almamater?",
+        "jawaban": "Pengambilan jas almamater dilakukan di Koperasi Mahasiswa (Kopma) Kampus I UPGRIS setelah menunjukkan bukti lunas registrasi."
+    },
+    {
+        "id": "FAQ_040",
+        "pertanyaan": "Kapan pelaksanaan orientasi mahasiswa baru (PMB/OSPEK)?",
+        "jawaban": "Orientasi mahasiswa baru di UPGRIS dikemas dalam kegiatan POSMA (Pekan Orientasi Mahasiswa) yang diselenggarakan pada awal bulan September."
+    },
+    {
+        "id": "FAQ_041",
+        "pertanyaan": "Berapa biaya kuliah (UKT) di UPGRIS?",
+        "jawaban": "Biaya kuliah (UKT) bervariasi antara Rp 3.600.000 hingga Rp 4.900.000 per semester untuk prodi reguler umum. Sedangkan Fakultas Kedokteran berkisar Rp 22.000.000 per semester."
+    },
+    {
+        "id": "FAQ_042",
+        "pertanyaan": "Apakah biaya UKT di UPGRIS flat sampai lulus?",
+        "jawaban": "Ya, sistem UKT di UPGRIS dirancang flat per semester tanpa ada kenaikan biaya di tengah jalan, kecuali mahasiswa mengambil SKS tambahan di luar paket (jika ada)."
+    },
+    {
+        "id": "FAQ_043",
+        "pertanyaan": "Berapa UKT untuk jurusan Teknik Informatika UPGRIS?",
+        "jawaban": "Biaya UKT untuk program studi S1 Teknik Informatika UPGRIS adalah Rp 4.900.000 per semester untuk kelas reguler."
+    },
+    {
+        "id": "FAQ_044",
+        "pertanyaan": "Berapa UKT untuk S1 PGSD UPGRIS?",
+        "jawaban": "Biaya UKT untuk program studi S1 Pendidikan Guru Sekolah Dasar (PGSD) UPGRIS adalah Rp 4.500.000 per semester."
+    },
+    {
+        "id": "FAQ_045",
+        "pertanyaan": "Apakah ada biaya pembangunan terpisah dari UKT?",
+        "jawaban": "Pada saat pertama kali masuk (registrasi awal), mahasiswa baru dikenakan Uang Pengembangan Institusi (UPI) yang besarannya berbeda tiap jalur dan program studi."
+    },
+    {
+        "id": "FAQ_046",
+        "pertanyaan": "Apakah pembayaran UKT di UPGRIS bisa dicicil?",
+        "jawaban": "Ya, pihak rektorat menyediakan kebijakan pengajuan dispensasi cicilan pembayaran UKT melalui koordinasi dengan Wakil Rektor II bidang Keuangan."
+    },
+    {
+        "id": "FAQ_047",
+        "pertanyaan": "Bagaimana cara mengajukan cicilan UKT?",
+        "jawaban": "Mahasiswa mengajukan surat permohonan dispensasi cicilan yang disetujui orang tua dan Kaprodi, lalu menyerahkannya ke Biro Administrasi Keuangan (BAK)."
+    },
+    {
+        "id": "FAQ_048",
+        "pertanyaan": "Berapa kali cicilan UKT dapat dibayarkan dalam satu semester?",
+        "jawaban": "Biasanya cicilan UKT dapat diangsur maksimal 2 hingga 3 kali pembayaran sebelum pelaksanaan Ujian Akhir Semester (UAS)."
+    },
+    {
+        "id": "FAQ_049",
+        "pertanyaan": "Apakah ada sanksi jika terlambat membayar UKT?",
+        "jawaban": "Keterlambatan pembayaran UKT tanpa status dispensasi resmi dapat menyebabkan akun SIAKAD dibekukan temporer atau mahasiswa dinonaktifkan pada semester tersebut."
+    },
+    {
+        "id": "FAQ_050",
+        "pertanyaan": "Apakah mahasiswa KIP Kuliah membayar UKT?",
+        "jawaban": "Mahasiswa penerima KIP-Kuliah dibebaskan 100% dari biaya UKT/SPP karena ditanggung penuh oleh pemerintah melalui skema beasiswa."
+    },
+    {
+        "id": "FAQ_051",
+        "pertanyaan": "Bagaimana cara melakukan pembayaran UKT lewat ATM?",
+        "jawaban": "Gunakan menu transfer atau menu pembayaran/Virtual Account, masukkan kode bank mitra UPGRIS diikuti nomor tagihan/NIM Anda."
+    },
+    {
+        "id": "FAQ_052",
+        "pertanyaan": "Apakah bisa membayar UKT lewat Mobile Banking?",
+        "jawaban": "Ya, pembayaran UKT sangat mudah dilakukan lewat M-Banking (BRI, BNI, Bank Jateng, dll.) dengan memasukkan kode VA tagihan mahasiswa."
+    },
+    {
+        "id": "FAQ_053",
+        "pertanyaan": "Di mana mahasiswa bisa mengecek riwayat pembayaran kuliah?",
+        "jawaban": "Riwayat dan rincian tagihan pembayaran kuliah dapat dipantau langsung pada portal SIAKAD masing-masing pada menu Keuangan."
+    },
+    {
+        "id": "FAQ_054",
+        "pertanyaan": "Apakah ada biaya tambahan untuk pelaksanaan KKN?",
+        "jawaban": "Ya, ada biaya operasional KKN yang ditentukan oleh LPPM untuk transportasi, atribut, dan program kerja lapangan."
+    },
+    {
+        "id": "FAQ_055",
+        "pertanyaan": "Berapa biaya pelaksanaan KKN di UPGRIS?",
+        "jawaban": "Biaya KKN berkisar antara Rp 1.000.000 hingga Rp 1.500.000 tergantung pada lokasi penempatan dan program kerja."
+    },
+    {
+        "id": "FAQ_056",
+        "pertanyaan": "Berapa biaya pelaksanaan PKL atau Magang?",
+        "jawaban": "Biaya PKL bervariasi sesuai program studi untuk keperluan administrasi pengantaran, monitoring dosen, dan ujian laporan PKL."
+    },
+    {
+        "id": "FAQ_057",
+        "pertanyaan": "Apakah ujian skripsi dikenakan biaya tambahan?",
+        "jawaban": "Ujian sidang skripsi dikenakan biaya pendaftaran sidang sesuai tarif resmi keuangan yang ditetapkan universitas."
+    },
+    {
+        "id": "FAQ_058",
+        "pertanyaan": "Berapa biaya wisuda di UPGRIS?",
+        "jawaban": "Biaya wisuda berkisar antara Rp 1.500.000 hingga Rp 2.000.000, mencakup ijazah, transkrip, perlengkapan wisuda (toga), konsumsi, dan sewa tempat."
+    },
+    {
+        "id": "FAQ_059",
+        "pertanyaan": "Apakah mahasiswa yang cuti akademik tetap membayar UKT?",
+        "jawaban": "Mahasiswa yang melakukan cuti akademik secara resmi hanya dikenakan biaya administrasi cuti (biasanya sekitar 10-25% dari UKT normal) bukan UKT penuh."
+    },
+    {
+        "id": "FAQ_060",
+        "pertanyaan": "Apakah mahasiswa semester tua yang hanya tinggal skripsi mendapat potongan UKT?",
+        "jawaban": "Ya, mahasiswa yang hanya menempuh skripsi (tanpa mata kuliah teori) dapat mengajukan potongan UKT sesuai kebijakan rektorat (biasanya diskon 50%)."
+    },
+    {
+        "id": "FAQ_061",
+        "pertanyaan": "Di mana kantor Biro Administrasi Keuangan (BAK) UPGRIS?",
+        "jawaban": "Kantor BAK berada di Gedung Pusat Administrasi Lantai 2, Kampus I UPGRIS Jl. Sidodadi Timur No. 24 Semarang."
+    },
+    {
+        "id": "FAQ_062",
+        "pertanyaan": "Apakah ada denda keterlambatan daftar ulang?",
+        "jawaban": "Tidak ada denda nominal, namun keterlambatan menyebabkan keterlambatan pengisian KRS dan potensi kehilangan hak mengikuti kuliah semester berjalan."
+    },
+    {
+        "id": "FAQ_063",
+        "pertanyaan": "Apakah ada biaya praktikum laboratorium terpisah?",
+        "jawaban": "Biaya praktikum sebagian besar sudah masuk dalam komponen UKT, kecuali untuk program studi tertentu yang membutuhkan bahan habis pakai tinggi."
+    },
+    {
+        "id": "FAQ_064",
+        "pertanyaan": "Bagaimana cara konfirmasi setelah bayar UKT secara transfer?",
+        "jawaban": "Sistem pembayaran UPGRIS sudah online realtime. Jika pembayaran sukses, status di SIAKAD akan langsung berubah otomatis tanpa perlu konfirmasi manual."
+    },
+    {
+        "id": "FAQ_065",
+        "pertanyaan": "Apakah ada biaya sewa rusunawa / asrama mahasiswa UPGRIS?",
+        "jawaban": "Ya, asrama mahasiswa (rusunawa) disewakan dengan tarif terjangkau bulanan/tahunan khusus bagi mahasiswa aktif."
+    },
+    {
+        "id": "FAQ_066",
+        "pertanyaan": "Siapa yang berhak mendapatkan dispensasi keuangan?",
+        "jawaban": "Mahasiswa aktif yang mengalami kendala finansial darurat yang dibuktikan dengan surat keterangan resmi atau kondisi bencana keluarga."
+    },
+    {
+        "id": "FAQ_067",
+        "pertanyaan": "Apakah biaya wisuda termasuk foto studio?",
+        "jawaban": "Biaya wisuda standar mencakup foto prosesi penyerahan ijazah di panggung, sedangkan foto studio mandiri merupakan biaya pribadi tambahan."
+    },
+    {
+        "id": "FAQ_068",
+        "pertanyaan": "Bagaimana cara mencetak bukti pembayaran UKT resmi?",
+        "jawaban": "Bukti pembayaran resmi dapat dicetak secara mandiri melalui menu Keuangan di SIAKAD atau meminta legalisir di bagian BAK."
+    },
+    {
+        "id": "FAQ_069",
+        "pertanyaan": "Apakah mahasiswa semester antara (SP) membayar biaya per SKS?",
+        "jawaban": "Ya, kuliah Semester Padat (SP) atau Semester Antara dikenakan biaya tambahan per SKS yang ditentukan oleh universitas."
+    },
+    {
+        "id": "FAQ_070",
+        "pertanyaan": "Berapa biaya per SKS untuk Semester Pendek di UPGRIS?",
+        "jawaban": "Biaya Semester Pendek berkisar antara Rp 100.000 hingga Rp 150.000 per SKS."
+    },
+    {
+        "id": "FAQ_071",
+        "pertanyaan": "Apakah biaya KKN bisa dicicil?",
+        "jawaban": "Pembayaran biaya KKN harus dilunasi sekaligus sebagai syarat pendaftaran plot lokasi KKN di LPPM."
+    },
+    {
+        "id": "FAQ_072",
+        "pertanyaan": "Apakah beasiswa prestasi dicairkan dalam bentuk uang tunai?",
+        "jawaban": "Sebagian besar beasiswa internal UPGRIS diberikan berupa pemotongan biaya UKT semester berikutnya, bukan uang tunai langsung."
+    },
+    {
+        "id": "FAQ_073",
+        "pertanyaan": "Berapa denda jika merusak fasilitas kampus?",
+        "jawaban": "Kerusakan fasilitas kampus akibat kelalaian mahasiswa diwajibkan mengganti senilai barang yang rusak atau memperbaiki ke kondisi semula."
+    },
+    {
+        "id": "FAQ_074",
+        "pertanyaan": "Bagaimana jika pembayaran Virtual Account dinyatakan kedaluwarsa?",
+        "jawaban": "Mahasiswa harus melakukan regenerasi kode Virtual Account baru melalui portal SIAKAD atau menghubungi Biro Keuangan."
+    },
+    {
+        "id": "FAQ_075",
+        "pertanyaan": "Apakah biaya uji kompetensi profesi sudah termasuk UKT?",
+        "jawaban": "Untuk program studi profesi (seperti PPG atau Profesi Dokter), biaya uji kompetensi nasional biasanya dibayarkan terpisah sesuai aturan panitia nasional."
+    },
+    {
+        "id": "FAQ_076",
+        "pertanyaan": "Apa saja fakultas yang ada di UPGRIS?",
+        "jawaban": "UPGRIS memiliki 8 Fakultas: Fakultas Ilmu Pendidikan (FIP), Fakultas Pendidikan Ilmu Pengetahuan Sosial dan Keolahragaan (FPIPSKR), Fakultas Pendidikan Bahasa dan Seni (FPBS), Fakultas Pendidikan Matematika, IPA, dan Teknologi Informasi (FPMIPATI), Fakultas Teknik (FT), Fakultas Hukum (FH), Fakultas Ekonomi dan Bisnis (FEB), Fakultas Kedokteran (FK), serta 1 Program Pascasarjana."
+    },
+    {
+        "id": "FAQ_077",
+        "pertanyaan": "Apakah UPGRIS memiliki Fakultas Kedokteran?",
+        "jawaban": "Ya, UPGRIS memiliki Fakultas Kedokteran (FK) dengan Program Studi S1 Kedokteran dan Pendidikan Profesi Dokter yang berlokasi di Kampus IV."
+    },
+    {
+        "id": "FAQ_078",
+        "pertanyaan": "Apakah ada Program Pascasarjana di UPGRIS?",
+        "jawaban": "Ya, UPGRIS menyelenggarakan Program Pascasarjana (S2) untuk jurusan Manajemen Pendidikan, Pendidikan Bahasa Indonesia, Pendidikan Matematika, Pendidikan Dasar, dan Pendidikan Bahasa Inggris."
+    },
+    {
+        "id": "FAQ_079",
+        "pertanyaan": "Apa akreditasi institusi UPGRIS saat ini?",
+        "jawaban": "Universitas PGRI Semarang secara institusi saat ini terakreditasi B oleh Badan Akreditasi Nasional Perguruan Tinggi (BAN-PT)."
+    },
+    {
+        "id": "FAQ_080",
+        "pertanyaan": "Di mana lokasi Fakultas Teknik UPGRIS?",
+        "jawaban": "Fakultas Teknik berlokasi di Kampus IV UPGRIS, Jl. Gajah Raya, Gayamsari, Semarang."
+    },
+    {
+        "id": "FAQ_081",
+        "pertanyaan": "Jurusan apa saja yang ada di Fakultas Teknik UPGRIS?",
+        "jawaban": "Fakultas Teknik memiliki program studi: S1 Teknik Sipil, S1 Teknik Elektro, S1 Teknik Informatika, S1 Teknologi Pangan, S1 Teknik Mesin, dan S1 Teknik Arsitektur."
+    },
+    {
+        "id": "FAQ_082",
+        "pertanyaan": "Apa saja jurusan di Fakultas Ilmu Pendidikan (FIP)?",
+        "jawaban": "FIP UPGRIS memiliki program studi: S1 Bimbingan dan Konseling (BK), S1 Pendidikan Guru Sekolah Dasar (PGSD), dan S1 Pendidikan Guru Pendidikan Anak Usia Dini (PGPAUD)."
+    },
+    {
+        "id": "FAQ_083",
+        "pertanyaan": "Apa saja jurusan di Fakultas Ekonomi dan Bisnis (FEB)?",
+        "jawaban": "FEB UPGRIS menyediakan program studi: S1 Manajemen, S1 Akuntansi, dan S1 Bisnis Digital."
+    },
+    {
+        "id": "FAQ_084",
+        "pertanyaan": "Apakah ada jurusan Bisnis Digital di UPGRIS?",
+        "jawaban": "Ya, program studi S1 Bisnis Digital tersedia di bawah naungan Fakultas Ekonomi dan Bisnis (FEB)."
+    },
+    {
+        "id": "FAQ_085",
+        "pertanyaan": "Apakah program studi Teknik Informatika di UPGRIS terakreditasi?",
+        "jawaban": "Ya, program studi S1 Teknik Informatika UPGRIS terakreditasi Baik Sekali oleh Lembaga Akreditasi Mandiri Informatika dan Komputer (LAM INFOKOM)."
+    },
+    {
+        "id": "FAQ_086",
+        "pertanyaan": "Apa saja jurusan di Fakultas Pendidikan Bahasa dan Seni (FPBS)?",
+        "jawaban": "FPBS memiliki prodi: S1 Pendidikan Bahasa & Sastra Indonesia, S1 Pendidikan Bahasa Inggris, dan S1 Pendidikan Bahasa Daerah (Jawa)."
+    },
+    {
+        "id": "FAQ_087",
+        "pertanyaan": "Apa saja program studi di Fakultas FPIPSKR?",
+        "jawaban": "FPIPSKR UPGRIS menaungi S1 PPKn, S1 Pendidikan Ekonomi, dan S1 Pendidikan Jasmani, Kesehatan & Rekreasi (PJKR)."
+    },
+    {
+        "id": "FAQ_088",
+        "pertanyaan": "Apa saja program studi di FPMIPATI?",
+        "jawaban": "FPMIPATI menaungi S1 Pendidikan Matematika, S1 Pendidikan Biologi, S1 Pendidikan Fisika, dan S1 Pendidikan Teknologi Informasi."
+    },
+    {
+        "id": "FAQ_089",
+        "pertanyaan": "Apakah UPGRIS memiliki program profesi Guru?",
+        "jawaban": "Ya, UPGRIS menyelenggarakan program Pendidikan Profesi Guru (PPG) untuk mencetak guru profesional bersertifikat pendidik."
+    },
+    {
+        "id": "FAQ_090",
+        "pertanyaan": "Apakah di UPGRIS ada program studi S1 Hukum?",
+        "jawaban": "Ya, S1 Hukum tersedia di bawah naungan Fakultas Hukum (FH) UPGRIS."
+    },
+    {
+        "id": "FAQ_091",
+        "pertanyaan": "Apa perbedaan kelas reguler dan kelas karyawan di Fakultas Teknik?",
+        "jawaban": "Kelas reguler kuliah pagi-siang (Senin-Jumat), sedangkan kelas karyawan kuliah sore-malam atau akhir pekan untuk memfasilitasi mahasiswa yang bekerja."
+    },
+    {
+        "id": "FAQ_092",
+        "pertanyaan": "Di mana bisa melihat akreditasi setiap program studi di UPGRIS?",
+        "jawaban": "Status akreditasi lengkap prodi dapat dilihat di website resmi baak.upgris.ac.id atau pmb.upgris.ac.id."
+    },
+    {
+        "id": "FAQ_093",
+        "pertanyaan": "Apakah semua dosen UPGRIS bergelar Doktor?",
+        "jawaban": "Banyak dosen UPGRIS yang telah bergelar Doktor (S3) lulusan dalam dan luar negeri, serta sebagian besar lainnya bergelar Magister (S2) sesuai standar nasional."
+    },
+    {
+        "id": "FAQ_094",
+        "pertanyaan": "Apakah ada program double degree di UPGRIS?",
+        "jawaban": "Program double degree dikoordinasikan secara khusus oleh Kantor Urusan Internasional (KUI) dengan universitas mitra luar negeri."
+    },
+    {
+        "id": "FAQ_095",
+        "pertanyaan": "Apakah Fakultas Kedokteran UPGRIS menerima mahasiswa IPS?",
+        "jawaban": "Secara umum program studi S1 Kedokteran menerima lulusan SMA/MA jurusan IPA/Sains demi linieritas ilmu biomedis."
+    },
+    {
+        "id": "FAQ_096",
+        "pertanyaan": "Apakah ada program vokasi (D3/D4) di UPGRIS?",
+        "jawaban": "Saat ini UPGRIS berfokus pada program Sarjana (S1), Pascasarjana (S2), dan Program Profesi (Dokter & Guru)."
+    },
+    {
+        "id": "FAQ_097",
+        "pertanyaan": "Berapa lama masa studi normal untuk jenjang S1?",
+        "jawaban": "Masa studi normal untuk jenjang Sarjana (S1) adalah 8 semester (4 tahun), dengan batas studi maksimal 14 semester (7 tahun)."
+    },
+    {
+        "id": "FAQ_098",
+        "pertanyaan": "Bagaimana cara menghubungi ketua program studi (Kaprodi)?",
+        "jawaban": "Mahasiswa dapat menghubungi Kaprodi di ruang dosen masing-masing fakultas atau menghubungi via kontak resmi yang disediakan fakultas."
+    },
+    {
+        "id": "FAQ_099",
+        "pertanyaan": "Apakah ada mata kuliah wajib universitas?",
+        "jawaban": "Ya, seperti Pendidikan Pancasila, Pendidikan Agama, Kewarganegaraan, Bahasa Indonesia, dan Ke-PGRI-an."
+    },
+    {
+        "id": "FAQ_100",
+        "pertanyaan": "Apa itu mata kuliah Ke-PGRI-an?",
+        "jawaban": "Mata kuliah ciri khas UPGRIS untuk menanamkan nilai-nilai kejuangan, sejarah, organisasi, dan kode etik Persatuan Guru Republik Indonesia (PGRI)."
+    },
+    {
+        "id": "FAQ_101",
+        "pertanyaan": "Apakah kurikulum UPGRIS sudah berbasis MBKM?",
+        "jawaban": "Ya, kurikulum UPGRIS mengimplementasikan Merdeka Belajar Kampus Merdeka (MBKM) yang memungkinkan mahasiswa belajar di luar kampus selama 1-2 semester."
+    },
+    {
+        "id": "FAQ_102",
+        "pertanyaan": "Apa keunggulan prodi Teknologi Pangan UPGRIS?",
+        "jawaban": "Memiliki laboratorium pengolahan pangan modern, berfokus pada diversifikasi pangan lokal, dan menjalin kerja sama erat dengan industri pangan regional."
+    },
+    {
+        "id": "FAQ_103",
+        "pertanyaan": "Apakah ada program kelas internasional?",
+        "jawaban": "Beberapa prodi menyelenggarakan kelas khusus kerja sama internasional yang melibatkan mahasiswa asing atau pertukaran pelajar."
+    },
+    {
+        "id": "FAQ_104",
+        "pertanyaan": "Apakah lulusan S1 non-kependidikan bisa mengambil profesi guru (PPG)?",
+        "jawaban": "Ya, lulusan S1 non-kependidikan yang berminat menjadi guru dapat mengambil program PPG Prajabatan sesuai bidang linier."
+    },
+    {
+        "id": "FAQ_105",
+        "pertanyaan": "Apa syarat lulus dari S2 Manajemen Pendidikan?",
+        "jawaban": "Menempuh minimal 36 SKS, lulus ujian tesis, dan mempublikasikan artikel ilmiah di jurnal nasional terakreditasi/internasional."
+    },
+    {
+        "id": "FAQ_106",
+        "pertanyaan": "Apakah Fakultas Hukum UPGRIS memiliki lembaga bantuan hukum?",
+        "jawaban": "Ya, FH UPGRIS memiliki Lembaga Konsultasi dan Bantuan Hukum (LKBH) yang melayani sivitas akademika dan masyarakat umum."
+    },
+    {
+        "id": "FAQ_107",
+        "pertanyaan": "Berapa jumlah SKS total yang harus diselesaikan untuk lulus S1?",
+        "jawaban": "Berkisar antara 144 hingga 150 SKS tergantung struktur kurikulum program studi masing-masing."
+    },
+    {
+        "id": "FAQ_108",
+        "pertanyaan": "Apakah ada batas minimal IPK untuk tetap bertahan di program studi?",
+        "jawaban": "Mahasiswa harus menjaga IPK minimal 2.00 untuk menghindari status evaluasi akademik atau Drop Out (DO) setelah batas evaluasi tertentu."
+    },
+    {
+        "id": "FAQ_109",
+        "pertanyaan": "Di mana lokasi Fakultas Kedokteran UPGRIS?",
+        "jawaban": "Fakultas Kedokteran bertempat di Gedung FK Kampus IV UPGRIS, Jl. Gajah Raya Semarang."
+    },
+    {
+        "id": "FAQ_110",
+        "pertanyaan": "Apakah ada kuota khusus putra daerah di Kedokteran UPGRIS?",
+        "jawaban": "Seleksi masuk Fakultas Kedokteran murni berbasis hasil ujian akademik, tes psikologi, dan kesehatan tanpa batasan daerah asal."
+    },
+    {
+        "id": "FAQ_111",
+        "pertanyaan": "Apa itu SIAKAD UPGRIS?",
+        "jawaban": "SIAKAD (Sistem Informasi Akademik) adalah portal digital terpadu bagi mahasiswa untuk mengisi KRS, melihat nilai KHS, memantau absensi, tagihan keuangan, dan profil akademik."
+    },
+    {
+        "id": "FAQ_112",
+        "pertanyaan": "Bagaimana cara login ke SIAKAD?",
+        "jawaban": "Akses siakad.upgris.ac.id menggunakan NIM (Nomor Induk Mahasiswa) sebagai username dan kata sandi yang diberikan saat daftar ulang."
+    },
+    {
+        "id": "FAQ_113",
+        "pertanyaan": "Bagaimana jika saya lupa password SIAKAD?",
+        "jawaban": "Anda dapat melakukan reset password mandiri lewat tombol lupa password di halaman login siakad, atau menghubungi UPT PPTIK di Kampus I."
+    },
+    {
+        "id": "FAQ_114",
+        "pertanyaan": "Kapan pengisian KRS dilakukan?",
+        "jawaban": "Pengisian KRS (Kartu Rencana Studi) dilakukan di awal setiap semester, sebelum perkuliahan aktif dimulai sesuai kalender akademik."
+    },
+    {
+        "id": "FAQ_115",
+        "pertanyaan": "Apa syarat utama bisa mengisi KRS?",
+        "jawaban": "Syarat utamanya adalah melunasi pembayaran UKT/SPP semester bersangkutan agar sistem membuka kunci portal KRS."
+    },
+    {
+        "id": "FAQ_116",
+        "pertanyaan": "Bagaimana alur pengisian KRS online?",
+        "jawaban": "Login SIAKAD -> Menu KRS -> Tambah Mata Kuliah -> Pilih kelas sesuai paket -> Ajukan Approval -> Konsultasi Dosen Wali -> KRS disetujui."
+    },
+    {
+        "id": "FAQ_117",
+        "pertanyaan": "Apa fungsi dari Dosen Wali?",
+        "jawaban": "Dosen wali bertindak sebagai pembimbing akademik mahasiswa yang memberikan arahan terkait pengambilan mata kuliah, KRS, dan solusi kendala studi."
+    },
+    {
+        "id": "FAQ_118",
+        "pertanyaan": "Bagaimana jika mata kuliah yang ingin saya ambil sudah penuh kelasnya?",
+        "jawaban": "Silakan melapor ke admin jurusan/Kaprodi agar dapat dibantu penambahan kapasitas kelas atau dialihkan ke kelas alternatif."
+    },
+    {
+        "id": "FAQ_119",
+        "pertanyaan": "Berapa jumlah SKS maksimal yang bisa diambil mahasiswa?",
+        "jawaban": "Maksimal SKS yang dapat diambil ditentukan oleh IPK semester sebelumnya, berkisar antara 18 hingga 24 SKS."
+    },
+    {
+        "id": "FAQ_120",
+        "pertanyaan": "Jika IPK saya di bawah 2.00, berapa SKS yang boleh diambil?",
+        "jawaban": "Jika IPK di bawah 2.00, mahasiswa biasanya hanya diperbolehkan mengambil maksimal 18 SKS pada semester berikutnya."
+    },
+    {
+        "id": "FAQ_121",
+        "pertanyaan": "Apa itu KHS?",
+        "jawaban": "KHS (Kartu Hasil Studi) adalah kartu yang memuat nilai semua mata kuliah yang diambil mahasiswa pada satu semester tertentu beserta Indeks Prestasi Semester (IPS)."
+    },
+    {
+        "id": "FAQ_122",
+        "pertanyaan": "Kapan KHS semester berjalan bisa diakses?",
+        "jawaban": "KHS dapat diakses setelah seluruh dosen pengampu melakukan input nilai perkuliahan dan masa ujian akhir semester (UAS) selesai."
+    },
+    {
+        "id": "FAQ_123",
+        "pertanyaan": "Di mana saya bisa mengunduh transkrip nilai sementara?",
+        "jawaban": "Transkrip nilai sementara dapat diunduh melalui menu Transkrip pada akun SIAKAD mahasiswa secara mandiri."
+    },
+    {
+        "id": "FAQ_124",
+        "pertanyaan": "Apa yang harus dilakukan jika nilai mata kuliah di KHS tidak keluar?",
+        "jawaban": "Segera hubungi dosen pengampu mata kuliah terkait untuk mengonfirmasi nilai yang belum diinput atau tanyakan ke admin prodi."
+    },
+    {
+        "id": "FAQ_125",
+        "pertanyaan": "Bagaimana kriteria penilaian huruf di UPGRIS?",
+        "jawaban": "Penilaian menggunakan huruf A (Istimewa), B (Baik), C (Cukup), D (Kurang), dan E (Gagal). Nilai kelulusan minimal mata kuliah biasanya adalah C."
+    },
+    {
+        "id": "FAQ_126",
+        "pertanyaan": "Apakah nilai D boleh diulang?",
+        "jawaban": "Boleh. Mahasiswa dapat mengulang mata kuliah dengan nilai D pada semester berikutnya atau melalui program semester antara untuk memperbaiki nilai."
+    },
+    {
+        "id": "FAQ_127",
+        "pertanyaan": "Apakah nilai E wajib diulang?",
+        "jawaban": "Ya, nilai E berarti tidak lulus sehingga mata kuliah tersebut wajib diulang kembali agar memenuhi syarat kelulusan."
+    },
+    {
+        "id": "FAQ_128",
+        "pertanyaan": "Apa itu Semester Antara atau Semester Pendek?",
+        "jawaban": "Program perkuliahan opsional yang diselenggarakan di jeda semester ganjil-genap untuk membantu mahasiswa mengulang nilai buruk atau mengambil matakuliah lebih cepat."
+    },
+    {
+        "id": "FAQ_129",
+        "pertanyaan": "Kapan Semester Antara diselenggarakan?",
+        "jawaban": "Biasanya diselenggarakan pada bulan Juli-Agustus di jeda libur semester genap."
+    },
+    {
+        "id": "FAQ_130",
+        "pertanyaan": "Berapa batas maksimal SKS di Semester Antara?",
+        "jawaban": "Mahasiswa diperbolehkan mengambil maksimal 9 SKS pada Semester Antara."
+    },
+    {
+        "id": "FAQ_131",
+        "pertanyaan": "Bagaimana sistem absensi kuliah di UPGRIS?",
+        "jawaban": "Absensi kuliah dilakukan secara digital (SIAKAD mobile / QR Code) di dalam kelas dengan batas minimal kehadiran 75% untuk syarat ikut UAS."
+    },
+    {
+        "id": "FAQ_132",
+        "pertanyaan": "Berapa kali mahasiswa boleh absen (tidak masuk) tanpa keterangan?",
+        "jawaban": "Batas maksimal tidak hadir tanpa keterangan adalah 4 kali tatap muka dari total 16 pertemuan kuliah."
+    },
+    {
+        "id": "FAQ_133",
+        "pertanyaan": "Apa akibatnya jika kehadiran kurang dari 75%?",
+        "jawaban": "Mahasiswa tidak diperkenankan mengikuti Ujian Akhir Semester (UAS) untuk mata kuliah bersangkutan dan terancam mendapat nilai E."
+    },
+    {
+        "id": "FAQ_134",
+        "pertanyaan": "Bagaimana jika tidak bisa hadir kuliah karena sakit?",
+        "jawaban": "Mahasiswa wajib mengirimkan surat keterangan sakit resmi dokter ke dosen pengampu dan admin prodi agar absensinya diperbarui."
+    },
+    {
+        "id": "FAQ_135",
+        "pertanyaan": "Di mana saya bisa melihat kalender akademik terbaru?",
+        "jawaban": "Kalender akademik resmi dipajang di website baak.upgris.ac.id atau di papan pengumuman fakultas."
+    },
+    {
+        "id": "FAQ_136",
+        "pertanyaan": "Kapan jadwal Ujian Tengah Semester (UTS) dilaksanakan?",
+        "jawaban": "UTS diselenggarakan pada minggu ke-8 perkuliahan efektif."
+    },
+    {
+        "id": "FAQ_137",
+        "pertanyaan": "Kapan Ujian Akhir Semester (UAS) dilaksanakan?",
+        "jawaban": "UAS diselenggarakan pada minggu ke-16 setelah seluruh materi tatap muka selesai disampaikan."
+    },
+    {
+        "id": "FAQ_138",
+        "pertanyaan": "Apakah ada ujian susulan bagi mahasiswa yang absen UTS/UAS?",
+        "jawaban": "Ujian susulan dapat diajukan dengan alasan mendesak (sakit/tugas kampus) melalui persetujuan dosen pengampu dengan melampirkan bukti fisik."
+    },
+    {
+        "id": "FAQ_139",
+        "pertanyaan": "Bagaimana cara mengajukan cuti akademik?",
+        "jawaban": "Mengisi formulir cuti di BAAK, mendapatkan persetujuan Kaprodi & Dekan, lalu menyelesaikan administrasi keuangan khusus cuti di BAK."
+    },
+    {
+        "id": "FAQ_140",
+        "pertanyaan": "Berapa lama batas maksimal cuti akademik yang diizinkan?",
+        "jawaban": "Cuti akademik dapat diajukan maksimal selama 2 semester (1 tahun) selama masa studi."
+    },
+    {
+        "id": "FAQ_141",
+        "pertanyaan": "Apa saja syarat mengambil mata kuliah skripsi?",
+        "jawaban": "Telah menempuh minimal 115 SKS, IPK minimal 2.00, tidak ada nilai E, tidak ada nilai D yang melebihi ketentuan prodi, dan lulus metodologi penelitian."
+    },
+    {
+        "id": "FAQ_142",
+        "pertanyaan": "Bagaimana alur pengajuan judul skripsi di UPGRIS?",
+        "jawaban": "Mahasiswa mengajukan draf judul/topik penelitian ke koordinator skripsi program studi. Setelah disetujui, ketua prodi akan menerbitkan SK Dosen Pembimbing."
+    },
+    {
+        "id": "FAQ_143",
+        "pertanyaan": "Berapa jumlah dosen pembimbing skripsi untuk setiap mahasiswa?",
+        "jawaban": "Setiap mahasiswa dibimbing oleh 2 dosen pembimbing: Pembimbing I (fokus substansi/konten) dan Pembimbing II (fokus teknik penulisan/metodologi)."
+    },
+    {
+        "id": "FAQ_144",
+        "pertanyaan": "Siapa yang menentukan dosen pembimbing skripsi?",
+        "jawaban": "Dosen pembimbing ditentukan oleh pihak program studi berdasarkan keselarasan kepakaran dosen dengan topik skripsi mahasiswa."
+    },
+    {
+        "id": "FAQ_145",
+        "pertanyaan": "Berapa lama masa berlaku SK pembimbing skripsi?",
+        "jawaban": "SK bimbingan skripsi berlaku selama 6 bulan sejak diterbitkan, dan dapat diperpanjang atas persetujuan kaprodi jika belum selesai."
+    },
+    {
+        "id": "FAQ_146",
+        "pertanyaan": "Apa syarat mengikuti seminar proposal skripsi?",
+        "jawaban": "Draf proposal disetujui oleh kedua dosen pembimbing, mendaftar ke admin prodi, dan menyerahkan berkas proposal rangkap tiga."
+    },
+    {
+        "id": "FAQ_147",
+        "pertanyaan": "Apa tujuan dari seminar proposal?",
+        "jawaban": "Untuk mengevaluasi kelayakan rencana penelitian mahasiswa dari segi metodologi, landasan teori, dan kesesuaian instrumen."
+    },
+    {
+        "id": "FAQ_148",
+        "pertanyaan": "Di mana mahasiswa melakukan bimbingan skripsi?",
+        "jawaban": "Bimbingan dilakukan di kampus (ruang dosen) sesuai jadwal kesepakatan, atau secara online melalui sistem e-bimbingan jika disediakan prodi."
+    },
+    {
+        "id": "FAQ_149",
+        "pertanyaan": "Berapa minimal frekuensi bimbingan sebelum sidang skripsi?",
+        "jawaban": "Mahasiswa minimal melakukan bimbingan sebanyak 8-10 kali dengan masing-masing dosen pembimbing yang dibuktikan dengan kartu bimbingan fisik/digital."
+    },
+    {
+        "id": "FAQ_150",
+        "pertanyaan": "Apa saja dokumen persyaratan mendaftar sidang skripsi?",
+        "jawaban": "Skripsi disetujui dosen pembimbing, bukti bebas keuangan, bebas perpustakaan, transkrip nilai lengkap bebas nilai E, bukti sertifikat TOEFL/keahlian tertentu jika dipersyaratkan."
+    },
+    {
+        "id": "FAQ_151",
+        "pertanyaan": "Bagaimana sistem penilaian dalam ujian sidang skripsi?",
+        "jawaban": "Penilaian didasarkan pada draf skripsi, penguasaan materi presentasi, kemampuan menjawab pertanyaan dewan penguji (biasanya terdiri dari 3 penguji)."
+    },
+    {
+        "id": "FAQ_152",
+        "pertanyaan": "Berapa nilai minimal kelulusan sidang skripsi?",
+        "jawaban": "Nilai kelulusan minimal skripsi adalah C, namun sebagian besar prodi menetapkan batas kelulusan minimal B."
+    },
+    {
+        "id": "FAQ_153",
+        "pertanyaan": "Bagaimana jika dinyatakan tidak lulus dalam sidang skripsi?",
+        "jawaban": "Mahasiswa harus melakukan revisi besar atau mengulang ujian sidang pada jadwal berikutnya sesuai arahan dewan penguji."
+    },
+    {
+        "id": "FAQ_154",
+        "pertanyaan": "Apa syarat untuk mengambil PKL / Magang?",
+        "jawaban": "Telah menempuh minimal 90 SKS, aktif terdaftar di semester berjalan, dan mencantumkan mata kuliah PKL di KRS."
+    },
+    {
+        "id": "FAQ_155",
+        "pertanyaan": "Di mana mahasiswa bisa melakukan PKL?",
+        "jawaban": "PKL dapat dilakukan di instansi pemerintah, perusahaan swasta, sekolah (untuk prodi kependidikan/PLP), atau industri yang relevan dengan keilmuan prodi."
+    },
+    {
+        "id": "FAQ_156",
+        "pertanyaan": "Apakah tempat PKL dicari sendiri oleh mahasiswa?",
+        "jawaban": "Ya, mahasiswa mencari secara mandiri atau memilih dari daftar instansi mitra yang sudah bekerja sama dengan program studi."
+    },
+    {
+        "id": "FAQ_157",
+        "pertanyaan": "Berapa lama durasi pelaksanaan PKL?",
+        "jawaban": "Durasi PKL berkisar antara 1 hingga 2 bulan penuh di lokasi mitra."
+    },
+    {
+        "id": "FAQ_158",
+        "pertanyaan": "Siapa yang membimbing mahasiswa saat pelaksanaan PKL?",
+        "jawaban": "Mahasiswa dibimbing oleh dua orang: Pembimbing Lapangan (dari instansi mitra) dan Dosen Pembimbing PKL (dari kampus)."
+    },
+    {
+        "id": "FAQ_159",
+        "pertanyaan": "Bagaimana bentuk evaluasi nilai PKL?",
+        "jawaban": "Evaluasi nilai didasarkan pada nilai kinerja dari pembimbing instansi, kualitas laporan PKL, dan hasil ujian presentasi laporan di prodi."
+    },
+    {
+        "id": "FAQ_160",
+        "pertanyaan": "Apa itu KKN?",
+        "jawaban": "KKN (Kuliah Kerja Nyata) adalah program pengabdian masyarakat secara interdisipliner yang wajib ditempuh mahasiswa sebagai wujud tri dharma perguruan tinggi."
+    },
+    {
+        "id": "FAQ_161",
+        "pertanyaan": "Kapan pendaftaran KKN UPGRIS dibuka?",
+        "jawaban": "Pendaftaran dibuka satu semester sekali melalui pengumuman resmi dari LPPM (Lembaga Penelitian dan Pengabdian kepada Masyarakat)."
+    },
+    {
+        "id": "FAQ_162",
+        "pertanyaan": "Apa syarat mendaftar KKN?",
+        "jawaban": "Mahasiswa aktif minimal semester 6, telah menempuh minimal 100 SKS, dan mendaftar secara online di sistem LPPM."
+    },
+    {
+        "id": "FAQ_163",
+        "pertanyaan": "Berapa lama pelaksanaan KKN di lapangan?",
+        "jawaban": "KKN dilaksanakan secara berkelompok di desa/lokasi penempatan selama kurang lebih 1 hingga 1.5 bulan."
+    },
+    {
+        "id": "FAQ_164",
+        "pertanyaan": "Bagaimana penentuan lokasi KKN mahasiswa?",
+        "jawaban": "Lokasi penempatan ditentukan sepenuhnya oleh tim LPPM UPGRIS berdasarkan kebutuhan desa binaan mitra kampus."
+    },
+    {
+        "id": "FAQ_165",
+        "pertanyaan": "Apakah ada KKN tematik atau KKN mandiri?",
+        "jawaban": "Ya, LPPM UPGRIS kadang menyelenggarakan KKN Tematik (khusus program tertentu) dan KKN Kemitraan selain KKN Reguler."
+    },
+    {
+        "id": "FAQ_166",
+        "pertanyaan": "Apakah ada program KKN internasional?",
+        "jawaban": "Ya, mahasiswa berprestasi dapat mengikuti program KKN internasional/Kemitraan Luar Negeri ke beberapa negara tetangga melalui seleksi khusus."
+    },
+    {
+        "id": "FAQ_167",
+        "pertanyaan": "Apa luaran yang harus dikumpulkan setelah KKN selesai?",
+        "jawaban": "Laporan kelompok, laporan individu, artikel jurnal pengabdian, video profil desa/kegiatan yang diunggah ke YouTube."
+    },
+    {
+        "id": "FAQ_168",
+        "pertanyaan": "Bagaimana jika mahasiswa tidak lulus KKN?",
+        "jawaban": "Mahasiswa wajib mengulang mendaftar program KKN pada periode gelombang berikutnya."
+    },
+    {
+        "id": "FAQ_169",
+        "pertanyaan": "Apakah ada program konversi KKN lewat prestasi?",
+        "jawaban": "Mahasiswa yang menjuarai kompetisi nasional tertentu atau mengikuti program MBKM resmi (seperti Kampus Mengajar) dapat mengajukan konversi nilai KKN."
+    },
+    {
+        "id": "FAQ_170",
+        "pertanyaan": "Di mana bisa mendapatkan informasi terkini seputar KKN?",
+        "jawaban": "Informasi lengkap dapat diakses di portal resmi lppm.upgris.ac.id."
+    },
+    {
+        "id": "FAQ_171",
+        "pertanyaan": "Apa saja fasilitas unggulan di UPGRIS?",
+        "jawaban": "UPGRIS memiliki Balairung megah, Perpustakaan Pusat terakreditasi A, Laboratorium Komputer canggih, Laboratorium Microteaching, Asrama Mahasiswa (Rusunawa), Klinik Pratama, Sarana Olahraga, dan Masjid Kampus."
+    },
+    {
+        "id": "FAQ_172",
+        "pertanyaan": "Di mana letak Perpustakaan Pusat UPGRIS?",
+        "jawaban": "Perpustakaan Pusat berada di Gedung Perpustakaan Kampus I Jl. Sidodadi Timur Semarang."
+    },
+    {
+        "id": "FAQ_173",
+        "pertanyaan": "Bagaimana cara membuat kartu anggota perpustakaan?",
+        "jawaban": "Setiap mahasiswa aktif otomatis terdaftar sebagai anggota perpustakaan menggunakan Kartu Tanda Mahasiswa (KTM)."
+    },
+    {
+        "id": "FAQ_174",
+        "pertanyaan": "Berapa batas maksimal peminjaman buku di perpustakaan?",
+        "jawaban": "Mahasiswa diperbolehkan meminjam maksimal 3 buku secara bersamaan dalam waktu 1 minggu, dan dapat diperpanjang satu kali."
+    },
+    {
+        "id": "FAQ_175",
+        "pertanyaan": "Apakah ada denda keterlambatan pengembalian buku perpustakaan?",
+        "jawaban": "Ya, dikenakan denda administrasi harian per buku jika terlambat mengembalikan buku sesuai batas tanggal pinjam."
+    },
+    {
+        "id": "FAQ_176",
+        "pertanyaan": "Apakah perpustakaan UPGRIS menyediakan e-book/e-journal?",
+        "jawaban": "Ya, perpustakaan menyediakan akses e-journal nasional/internasional serta katalog online (OPAC) yang dapat diakses di library.upgris.ac.id."
+    },
+    {
+        "id": "FAQ_177",
+        "pertanyaan": "Apakah UPGRIS menyediakan asrama bagi mahasiswa?",
+        "jawaban": "Ya, UPGRIS memiliki Rusunawa (Rumah Susun Sederhana Sewa) mahasiswa yang bersih, aman, dan berbiaya sangat terjangkau bagi mahasiswa baru."
+    },
+    {
+        "id": "FAQ_178",
+        "pertanyaan": "Bagaimana cara mendaftar asrama rusunawa UPGRIS?",
+        "jawaban": "Pendaftaran asrama dikoordinasikan oleh Biro Kemandirian & Kesejahteraan Mahasiswa di Kampus I dengan mengisi formulir sewa."
+    },
+    {
+        "id": "FAQ_179",
+        "pertanyaan": "Apakah ada fasilitas kesehatan untuk mahasiswa?",
+        "jawaban": "Ya, Klinik Pratama UPGRIS di Kampus I melayani pemeriksaan kesehatan, pengobatan ringan, dan konsultasi dokter gratis/terjangkau bagi mahasiswa."
+    },
+    {
+        "id": "FAQ_180",
+        "pertanyaan": "Apa saja Organisasi Kemahasiswaan (Ormawa) tingkat universitas?",
+        "jawaban": "Terdapat Dewan Perwakilan Mahasiswa (DPM), Badan Eksekutif Mahasiswa (BEM-U), dan berbagai Unit Kegiatan Mahasiswa (UKM)."
+    },
+    {
+        "id": "FAQ_181",
+        "pertanyaan": "Apa saja contoh UKM olahraga di UPGRIS?",
+        "jawaban": "UKM Futsal, UKM Basket, UKM Voli, UKM Bulutangkis, UKM Pencak Silat, UKM Karate, dan UKM Taekwondo."
+    },
+    {
+        "id": "FAQ_182",
+        "pertanyaan": "Apa saja contoh UKM bidang seni dan budaya?",
+        "jawaban": "UKM Paduan Suara (PSM), UKM Musik, UKM Teater (Teater Gema), UKM Tari, dan UKM Jurnalistik."
+    },
+    {
+        "id": "FAQ_183",
+        "pertanyaan": "Apakah ada UKM Kerohanian di UPGRIS?",
+        "jawaban": "Ya, seperti UKM Rohis (mahasiswa muslim), UKK (Kerohanian Kristen), dan UKKa (Kerohanian Katolik)."
+    },
+    {
+        "id": "FAQ_184",
+        "pertanyaan": "Bagaimana cara bergabung dengan organisasi mahasiswa (BEM/DPM)?",
+        "jawaban": "Melalui proses rekrutmen terbuka (Open Recruitment) yang biasanya diselenggarakan setiap pergantian periode kepengurusan."
+    },
+    {
+        "id": "FAQ_185",
+        "pertanyaan": "Apakah ada UKM Resimen Mahasiswa (Menwa) di UPGRIS?",
+        "jawaban": "Ya, UKM Menwa (Satuan 952/Merak) aktif melatih kepemimpinan, kedisiplinan, dan bela negara bagi mahasiswa."
+    },
+    {
+        "id": "FAQ_186",
+        "pertanyaan": "Di mana alamat Kampus I UPGRIS?",
+        "jawaban": "Kampus I (Pusat) berlokasi di Jl. Sidodadi Timur No. 24, Karangtempel, Kec. Semarang Timur, Kota Semarang, Jawa Tengah 50232."
+    },
+    {
+        "id": "FAQ_187",
+        "pertanyaan": "Di mana alamat Kampus IV UPGRIS?",
+        "jawaban": "Kampus IV UPGRIS terletak di Jl. Gajah Raya, Sambirejo, Kec. Gayamsari, Kota Semarang, Jawa Tengah 50166."
+    },
+    {
+        "id": "FAQ_188",
+        "pertanyaan": "Berapa nomor telepon resmi rektorat UPGRIS?",
+        "jawaban": "Nomor telepon resmi rektorat adalah (024) 8316377."
+    },
+    {
+        "id": "FAQ_189",
+        "pertanyaan": "Apa email resmi untuk urusan Hubungan Masyarakat (Humas)?",
+        "jawaban": "Email resmi Humas UPGRIS adalah humas@upgris.ac.id."
+    },
+    {
+        "id": "FAQ_190",
+        "pertanyaan": "Apa email resmi untuk urusan Penerimaan Mahasiswa Baru?",
+        "jawaban": "Email resmi PMB adalah pmb@upgris.ac.id."
+    },
+    {
+        "id": "FAQ_191",
+        "pertanyaan": "Kapan jam operasional kantor administrasi UPGRIS?",
+        "jawaban": "Kantor administrasi buka hari Senin-Jumat pukul 07.30 - 16.00 WIB. Sabtu dan Minggu libur."
+    },
+    {
+        "id": "FAQ_192",
+        "pertanyaan": "Apakah hari Sabtu kampus UPGRIS buka?",
+        "jawaban": "Perkuliahan kelas reguler dan pelayanan kantor libur hari Sabtu, namun kelas khusus/karyawan tetap menyelenggarakan perkuliahan sesuai jadwal."
+    },
+    {
+        "id": "FAQ_193",
+        "pertanyaan": "Siapa Rektor UPGRIS saat ini?",
+        "jawaban": "Rektor UPGRIS periode saat ini dijabat oleh Dr. Sri Suciati, M.Hum."
+    },
+    {
+        "id": "FAQ_194",
+        "pertanyaan": "Siapa nama Wakil Rektor I UPGRIS?",
+        "jawaban": "Wakil Rektor I Bidang Akademik dijabat oleh Prof. Dr. Muniroh Munawar, M.Pd."
+    },
+    {
+        "id": "FAQ_195",
+        "pertanyaan": "Siapa nama Wakil Rektor II UPGRIS?",
+        "jawaban": "Wakil Rektor II Bidang Administrasi Umum & Keuangan dijabat oleh Dr. Endah Rita Sulistya Dewi, S.Si., M.Pd."
+    },
+    {
+        "id": "FAQ_196",
+        "pertanyaan": "Siapa nama Wakil Rektor III UPGRIS?",
+        "jawaban": "Wakil Rektor III Bidang Kemahasiswaan & Kerjasama dijabat oleh Dr. Sapto Wibowo, M.Pd."
+    },
+    {
+        "id": "FAQ_197",
+        "pertanyaan": "Apakah ada fasilitas Wi-Fi untuk mahasiswa di kampus?",
+        "jawaban": "Ya, akses Wi-Fi berkecepatan tinggi tersedia gratis bagi mahasiswa di seluruh area kampus dengan login menggunakan akun SIAKAD."
+    },
+    {
+        "id": "FAQ_198",
+        "pertanyaan": "Di mana lokasi parkir motor utama Kampus IV?",
+        "jawaban": "Parkir motor utama Kampus IV berada di area basement dan halaman parkir belakang gedung utama."
+    },
+    {
+        "id": "FAQ_199",
+        "pertanyaan": "Apakah ada kantin di Kampus IV?",
+        "jawaban": "Ya, Kampus IV memiliki area kantin pujasera yang bersih dan menyajikan berbagai makanan dan minuman murah."
+    },
+    {
+        "id": "FAQ_200",
+        "pertanyaan": "Di mana letak masjid kampus UPGRIS?",
+        "jawaban": "Masjid Al-Klathimi terletak di dalam kompleks Kampus I UPGRIS."
+    },
+    {
+        "id": "FAQ_201",
+        "pertanyaan": "Bagaimana cara melegalisir ijazah bagi alumni?",
+        "jawaban": "Alumni dapat mengajukan legalisir dokumen langsung ke bagian BAAK Kampus I dengan membawa fotokopi ijazah beserta aslinya, atau secara online melalui layanan tracer study."
+    },
+    {
+        "id": "FAQ_202",
+        "pertanyaan": "Apakah ada ikatan alumni UPGRIS?",
+        "jawaban": "Ya, ada Ikatan Keluarga Alumni (IKA) UPGRIS yang wadahnya aktif menjalin jejaring alumni di seluruh Indonesia."
+    },
+    {
+        "id": "FAQ_203",
+        "pertanyaan": "Bagaimana cara mahasiswa berprestasi mengajukan bebas biaya SPP?",
+        "jawaban": "Mahasiswa berprestasi nasional dapat mengajukan beasiswa khusus ke Wakil Rektor III untuk pembebasan biaya kuliah sesuai kriteria."
+    },
+    {
+        "id": "FAQ_204",
+        "pertanyaan": "Apakah UPGRIS menyediakan tracer study untuk lulusan?",
+        "jawaban": "Ya, UPT Pusat Karir UPGRIS mengelola layanan tracer study untuk melacak serapan kerja lulusan dan membantu penyaluran info lowongan kerja."
+    },
+    {
+        "id": "FAQ_205",
+        "pertanyaan": "Apakah ada unit keamanan (Satpam) 24 jam di UPGRIS?",
+        "jawaban": "Ya, pos keamanan di setiap gerbang kampus dijaga oleh personel Satpam selama 24 jam untuk menjamin kenyamanan civitas akademika."
+    }
+]

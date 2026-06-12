@@ -1,0 +1,26 @@
+{
+  "prodi_utama": "Informatika",
+  "jenjang": "S1",
+  "deskripsi": "Program Studi Informatika mempelajari pemrograman, basis data, jaringan komputer, kecerdasan buatan, web, mobile, data science, dan teknologi komputer. Lulusan diharapkan mampu menjadi tenaga profesional IT yang kompeten.",
+  "prospek_karir": [
+    "Programmer",
+    "Web Developer",
+    "AI Engineer",
+    "Data Analyst",
+    "Network Administrator",
+    "Software Engineer",
+    "Mobile Developer",
+    "Database Administrator",
+    "IT Consultant",
+    "Cyber Security Analyst"
+  ],
+  "kompetensi_lulusan": [
+    "Mampu mengembangkan aplikasi berbasis web dan mobile",
+    "Mampu merancang dan mengelola basis data",
+    "Mampu menganalisis dan memecahkan masalah menggunakan algoritma",
+    "Mampu menerapkan kecerdasan buatan dalam penyelesaian masalah",
+    "Mampu bekerja sama dalam tim pengembangan perangkat lunak"
+  ],
+  "catatan": "Data prodi dapat diperbarui sesuai informasi resmi dari UPGRIS.",
+  "source_url": "https://informatika.upgris.ac.id"
+}

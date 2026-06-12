@@ -1,0 +1,77 @@
+{
+  "krs": {
+    "nama": "Kartu Rencana Studi (KRS)",
+    "deskripsi": "KRS adalah proses pengambilan mata kuliah yang dilakukan mahasiswa pada awal semester melalui sistem akademik online. Mahasiswa memilih mata kuliah sesuai dengan kurikulum dan jumlah SKS yang diperbolehkan berdasarkan IPS semester sebelumnya.",
+    "langkah": [
+      "Login ke sistem akademik online",
+      "Pilih semester aktif",
+      "Pilih mata kuliah yang akan diambil",
+      "Simpan dan cetak KRS",
+      "Minta persetujuan dosen wali"
+    ]
+  },
+  "khs": {
+    "nama": "Kartu Hasil Studi (KHS)",
+    "deskripsi": "KHS berisi daftar nilai mahasiswa pada semester tertentu. KHS menampilkan mata kuliah yang diambil, nilai yang diperoleh, dan IPS (Indeks Prestasi Semester).",
+    "akses": "KHS dapat diakses melalui sistem akademik online setelah nilai semester dikeluarkan."
+  },
+  "ipk": {
+    "nama": "Indeks Prestasi Kumulatif (IPK)",
+    "deskripsi": "IPK adalah rata-rata nilai seluruh mata kuliah yang telah ditempuh mahasiswa dari semester pertama hingga semester terakhir. IPK menjadi indikator utama capaian akademik mahasiswa.",
+    "skala": "0.00 - 4.00",
+    "kategori": {
+      "cum_laude": "IPK >= 3.51",
+      "sangat_memuaskan": "IPK 2.76 - 3.50",
+      "memuaskan": "IPK 2.00 - 2.75"
+    }
+  },
+  "jadwal": {
+    "nama": "Jadwal Perkuliahan",
+    "deskripsi": "Jadwal kuliah disusun oleh program studi dan dapat dilihat melalui sistem akademik online atau papan pengumuman prodi. Jadwal mencakup hari, jam, ruang, dan dosen pengampu.",
+    "akses": "Sistem akademik online atau informasi dari program studi."
+  },
+  "skripsi": {
+    "nama": "Skripsi / Tugas Akhir",
+    "deskripsi": "Skripsi atau tugas akhir merupakan karya ilmiah mahasiswa sebagai salah satu syarat kelulusan program sarjana. Mahasiswa wajib menyusun proposal, melakukan penelitian, dan mempertahankan hasil penelitian dalam sidang skripsi.",
+    "tahapan": [
+      "Pengajuan judul dan proposal",
+      "Seminar proposal",
+      "Pelaksanaan penelitian",
+      "Penulisan skripsi",
+      "Sidang skripsi"
+    ]
+  },
+  "wisuda": {
+    "nama": "Wisuda",
+    "deskripsi": "Wisuda adalah upacara resmi pengukuhan kelulusan mahasiswa yang telah menyelesaikan seluruh kewajiban akademik. Wisuda dilaksanakan secara berkala oleh universitas.",
+    "syarat": [
+      "Telah lulus semua mata kuliah",
+      "Telah lulus sidang skripsi",
+      "Telah menyelesaikan administrasi keuangan",
+      "Telah melakukan registrasi wisuda"
+    ]
+  },
+  "layanan_surat": {
+    "nama": "Layanan Surat Akademik",
+    "deskripsi": "Mahasiswa dapat mengajukan berbagai surat akademik melalui bagian administrasi atau sistem online. Surat yang tersedia antara lain surat keterangan aktif kuliah, surat pengantar, dan surat keterangan lainnya.",
+    "jenis_surat": [
+      "Surat Keterangan Aktif Kuliah",
+      "Surat Pengantar Penelitian",
+      "Surat Keterangan Lulus",
+      "Surat Rekomendasi",
+      "Transkrip Nilai"
+    ]
+  },
+  "pengaduan": {
+    "nama": "Layanan Pengaduan",
+    "deskripsi": "Mahasiswa dapat menyampaikan keluhan, aspirasi, atau laporan melalui layanan pengaduan kampus. UPGRIS menyediakan kanal pengaduan untuk memastikan pelayanan yang baik bagi seluruh civitas akademika.",
+    "kanal": [
+      "InfoCare UPGRIS",
+      "Website pengaduan resmi",
+      "Bagian kemahasiswaan",
+      "Whistleblowing System"
+    ]
+  },
+  "catatan": "Informasi akademik dapat berubah mengikuti kebijakan universitas. Untuk informasi terkini, silakan hubungi program studi atau bagian akademik.",
+  "source_url": "https://upgris.ac.id"
+}

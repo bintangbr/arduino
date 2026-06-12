@@ -1,0 +1,24 @@
+{
+  "dosen": [
+    {
+      "nama": "Bambang Agus Herlambang, M.Kom",
+      "jabatan": "Ketua Program Studi Informatika",
+      "bidang": "Informatika",
+      "nidn": "-"
+    },
+    {
+      "nama": "Noora Qotrun Nada, S.T., M.Eng",
+      "jabatan": "Sekretaris Program Studi Informatika",
+      "bidang": "Informatika",
+      "nidn": "-"
+    },
+    {
+      "nama": "Khoiriya Latifa, M.Kom",
+      "jabatan": "Kepala Laboratorium",
+      "bidang": "Informatika",
+      "nidn": "-"
+    }
+  ],
+  "catatan": "Data dosen dapat diperbarui sesuai website resmi Prodi Informatika UPGRIS. NIDN dan detail lainnya dapat dilengkapi dari sumber resmi.",
+  "source_url": "https://informatika.upgris.ac.id"
+}

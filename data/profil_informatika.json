@@ -1,0 +1,24 @@
+{
+  "nama": "Program Studi Informatika",
+  "universitas": "Universitas PGRI Semarang",
+  "fakultas": "Fakultas Teknik dan Informatika",
+  "jenjang": "S1 (Sarjana)",
+  "deskripsi": "Program Studi Informatika UPGRIS berfokus pada bidang teknologi informasi, pemrograman, kecerdasan buatan, sistem informasi, dan pengembangan aplikasi. Prodi ini mempersiapkan mahasiswa untuk menjadi tenaga profesional di bidang IT yang kompeten dan berdaya saing.",
+  "peminatan": [
+    "Web Programmer",
+    "Artificial Intelligence Engineer"
+  ],
+  "gelar": "S.Kom (Sarjana Komputer)",
+  "total_sks": 144,
+  "masa_studi": "8 semester (4 tahun)",
+  "fasilitas": [
+    "Laboratorium Komputer",
+    "Laboratorium Jaringan",
+    "Laboratorium Multimedia",
+    "Ruang Kelas Ber-AC",
+    "Akses Internet dan Wi-Fi"
+  ],
+  "website": "https://informatika.upgris.ac.id",
+  "catatan": "Data dapat diperbarui sesuai informasi resmi dari website Prodi Informatika UPGRIS.",
+  "source_url": "https://informatika.upgris.ac.id"
+}

@@ -1,0 +1,29 @@
+{
+  "deskripsi": "Mahasiswa UPGRIS dapat memperoleh informasi beasiswa melalui bagian kemahasiswaan atau website resmi UPGRIS. Beasiswa diberikan berdasarkan prestasi, kebutuhan ekonomi, dan kriteria lainnya.",
+  "jenis": [
+    {
+      "nama": "KIP Kuliah",
+      "keterangan": "Bantuan biaya pendidikan dari pemerintah untuk mahasiswa dari keluarga kurang mampu secara ekonomi."
+    },
+    {
+      "nama": "Beasiswa Prestasi",
+      "keterangan": "Beasiswa untuk mahasiswa berprestasi di bidang akademik maupun non-akademik."
+    },
+    {
+      "nama": "Beasiswa Internal UPGRIS",
+      "keterangan": "Beasiswa yang disediakan oleh universitas untuk mahasiswa yang memenuhi kriteria tertentu."
+    },
+    {
+      "nama": "Beasiswa Eksternal",
+      "keterangan": "Beasiswa dari pihak luar seperti perusahaan, yayasan, dan lembaga pemerintah."
+    }
+  ],
+  "cara_mendaftar": [
+    "Cek informasi beasiswa di website atau bagian kemahasiswaan",
+    "Siapkan dokumen persyaratan",
+    "Daftarkan diri sesuai prosedur yang berlaku",
+    "Tunggu pengumuman hasil seleksi"
+  ],
+  "catatan": "Syarat dan jadwal beasiswa dapat berubah mengikuti kebijakan kampus dan pemberi beasiswa.",
+  "source_url": "https://upgris.ac.id"
+}

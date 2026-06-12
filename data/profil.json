@@ -1,0 +1,45 @@
+{
+    "universitas": "Universitas PGRI Semarang (UPGRIS)",
+    "sejarah": "Universitas PGRI Semarang (UPGRIS) dirintis dari didirikannya IKIP PGRI Jawa Tengah pada tanggal 23 Juli 1981. Lembaga ini kemudian berganti nama menjadi IKIP PGRI Semarang. Pada tahun 2014, tepatnya berdasarkan SK Menteri Pendidikan dan Kebudayaan RI No. 385/E/O/2014 tanggal 3 September 2014, IKIP PGRI Semarang resmi bergabung dengan Akademi Teknologi Semarang (ATS) dan bertransformasi menjadi Universitas PGRI Semarang (UPGRIS). Transformasi ini memperluas program studi non-kependidikan untuk memenuhi kebutuhan pembangunan bangsa.",
+    "visi": "Menjadi Universitas yang Unggul dan Berkarakter di Asia Tenggara pada tahun 2032.",
+    "misi": [
+        "Menyelenggarakan pendidikan dan pengajaran yang bermutu untuk menghasilkan lulusan yang unggul dan berkarakter.",
+        "Menyelenggarakan penelitian guna mengembangkan ilmu pengetahuan, teknologi, dan seni (IPTEKS) yang berdaya guna bagi peningkatan kesejahteraan masyarakat.",
+        "Menyelenggarakan pengabdian kepada masyarakat berbasis IPTEKS untuk memecahkan permasalahan dan meningkatkan kemajuan masyarakat.",
+        "Mengembangkan tata kelola lembaga yang sehat (good university governance), transparan, akuntabel, dan mandiri demi keberlanjutan masa depan universitas."
+    ],
+    "pimpinan": {
+        "rektor": "Dr. H. Sapto Budoyo, S.H., M.H.",
+        "wakil_rektor_1": "Dr. Muniroh Munawar, S.Pi., M.Pd. (Bidang Akademik & Kerjasama)",
+        "wakil_rektor_2": "Prof. Dr. Endah Rita Sulistya Dewi, S.Si., M.Si. (Bidang Administrasi Umum & Keuangan)",
+        "wakil_rektor_3": "(Posisi dalam proses penyesuaian) (Bidang Kemahasiswaan & Alumni)",
+        "wakil_rektor_4": "Prof. Dr. Nur Khoiri, S.Pd., M.T., M.Pd. (Bidang Penelitian, Pengabdian Masyarakat & Pengembangan)"
+    },
+    "kontak": {
+        "telepon": "(024) 8316377",
+        "fax": "(024) 8448217",
+        "email_rektorat": "rektorat@upgris.ac.id",
+        "email_humas": "humas@upgris.ac.id",
+        "email_pmb": "pmb@upgris.ac.id",
+        "website": "https://www.upgris.ac.id"
+    },
+    "lokasi": {
+        "kampus_1": "Kampus I (Pusat): Jl. Sidodadi Timur No. 24, Karangtempel, Kec. Semarang Timur, Kota Semarang, Jawa Tengah 50232",
+        "kampus_2": "Kampus II: Jl. Sriwibowo Utara, Kec. Semarang Barat, Kota Semarang, Jawa Tengah 50146",
+        "kampus_3": "Kampus III: Jl. Sriwibowo Dalam No. 1, Kec. Semarang Barat, Kota Semarang, Jawa Tengah 50146",
+        "kampus_4": "Kampus IV (Gedung Utama & Pascasarjana): Jl. Gajah Raya, Sambirejo, Kec. Gayamsari, Kota Semarang, Jawa Tengah 50166"
+    },
+    "fasilitas": [
+        "Balairung (Gedung Pertemuan Utama)",
+        "Perpustakaan Pusat Terakreditasi A",
+        "Masjid Kampus Al-Klathimi",
+        "Laboratorium Komputer & Bahasa modern",
+        "Laboratorium Microteaching (Fakultas Ilmu Pendidikan)",
+        "Gedung Pusat Kegiatan Mahasiswa (PKM)",
+        "Sarana Olahraga (Lapangan Futsal, Basket, Voli)",
+        "Asrama Mahasiswa (Rusunawa Kampus)",
+        "Klinik Kesehatan Pratama UPGRIS",
+        "Kantin dan Koperasi Mahasiswa",
+        "Area Parkir Luas dan Akses internet Wi-Fi gratis di seluruh area kampus"
+    ]
+}

@@ -1,0 +1,54 @@
+{
+  "fakultas": [
+    {
+      "nama": "Fakultas Teknik dan Informatika",
+      "singkatan": "FTI",
+      "prodi": [
+        "Informatika",
+        "Teknik Sipil",
+        "Teknik Mesin",
+        "Teknik Elektro",
+        "Arsitektur",
+        "Teknologi Pangan"
+      ]
+    },
+    {
+      "nama": "Fakultas Pendidikan Ilmu Pengetahuan Sosial dan Keolahragaan",
+      "singkatan": "FPIPSKR",
+      "prodi": [
+        "Pendidikan Pancasila dan Kewarganegaraan",
+        "Pendidikan Sejarah",
+        "Pendidikan Jasmani Kesehatan dan Rekreasi"
+      ]
+    },
+    {
+      "nama": "Fakultas Pendidikan Matematika Ilmu Pengetahuan Alam dan Teknologi Informasi",
+      "singkatan": "FPMIPATI",
+      "prodi": [
+        "Pendidikan Matematika",
+        "Pendidikan Fisika",
+        "Pendidikan Biologi",
+        "Pendidikan Teknologi Informasi"
+      ]
+    },
+    {
+      "nama": "Fakultas Pendidikan Bahasa dan Seni",
+      "singkatan": "FPBS",
+      "prodi": [
+        "Pendidikan Bahasa dan Sastra Indonesia",
+        "Pendidikan Bahasa Inggris",
+        "Pendidikan Bahasa dan Sastra Jawa"
+      ]
+    },
+    {
+      "nama": "Fakultas Ekonomi dan Bisnis",
+      "singkatan": "FEB",
+      "prodi": [
+        "Manajemen",
+        "Akuntansi"
+      ]
+    }
+  ],
+  "catatan": "Daftar fakultas dan prodi dapat diperbarui mengikuti data resmi UPGRIS.",
+  "source_url": "https://upgris.ac.id"
+}
